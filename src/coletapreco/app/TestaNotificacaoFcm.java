@@ -3,8 +3,10 @@ package coletapreco.app;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.Authenticator;
 import java.net.HttpURLConnection;
 import java.net.InetSocketAddress;
+import java.net.PasswordAuthentication;
 import java.net.Proxy;
 import java.net.URL;
 
@@ -67,8 +69,17 @@ public class TestaNotificacaoFcm {
 			
             
             URL url = new URL("https://fcm.googleapis.com/fcm/send");
-            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-            //HttpURLConnection conn = (HttpURLConnection) new URL("https://fcm.googleapis.com/fcm/send").openConnection(proxy);
+            //HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+            
+            Authenticator authenticator = new Authenticator() {
+
+                public PasswordAuthentication getPasswordAuthentication() {
+                    return (new PasswordAuthentication("tr626987", "Mclaren1".toCharArray()));
+                }
+            };
+            Authenticator.setDefault(authenticator);    
+            HttpURLConnection conn = (HttpURLConnection) new URL("https://fcm.googleapis.com/fcm/send").openConnection(proxy);
+            
             
             conn.setRequestProperty("Authorization", "key=" + apiKey);
             conn.setRequestProperty("Content-Type", "application/json");
