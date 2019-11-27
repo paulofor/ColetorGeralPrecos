@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="../../Java-Terceiros/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="../../Java-Terceiros/quartz-all-2.0.2.jar"/>
+	<classpathentry kind="lib" path="../../Java-Terceiros/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="../../Java-Terceiros/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/org.json-20120521.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/DaoLib-Rec"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ColetorBoaDica"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/restfb-1.6.10"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/coletor"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ClienteLoopbackValidador"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
