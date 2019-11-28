@@ -57,8 +57,9 @@ public class TestaNotificacaoFcm {
 			jNotification.put("title", "Cosmetic Center");
 			jNotification.put("body" , "Chegaram novos produtos para voce");
 			jNotification.put("color" , "#ba5b5b");
+			jNotification.put("click_action","FCM_PLUGIN_ACTIVITY");
 			
-			jData.put("tokenNotificacao" , "12345");
+			jData.put("tokenNotificacao" , "12349");
 			
 			
 			jMensagem.put("to", "/topics/novo");
@@ -67,9 +68,8 @@ public class TestaNotificacaoFcm {
 			jMensagem.put("notification" , jNotification);
 			jMensagem.put("data" , jData);
 			
+			URL url = new URL("https://fcm.googleapis.com/fcm/send");
             
-            URL url = new URL("https://fcm.googleapis.com/fcm/send");
-            //HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             
             Authenticator authenticator = new Authenticator() {
 
@@ -78,8 +78,8 @@ public class TestaNotificacaoFcm {
                 }
             };
             Authenticator.setDefault(authenticator);    
-            HttpURLConnection conn = (HttpURLConnection) new URL("https://fcm.googleapis.com/fcm/send").openConnection(proxy);
-            
+            //HttpURLConnection conn = (HttpURLConnection) new URL("https://fcm.googleapis.com/fcm/send").openConnection(proxy);
+            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             
             conn.setRequestProperty("Authorization", "key=" + apiKey);
             conn.setRequestProperty("Content-Type", "application/json");
