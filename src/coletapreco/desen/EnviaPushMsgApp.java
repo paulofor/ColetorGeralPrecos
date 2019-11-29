@@ -29,8 +29,7 @@ public class EnviaPushMsgApp {
 			@Override
 			public void onSuccess(List<DispositivoUsuario> objects) {
 				System.out.println("Total Dispositivo: " + objects.size());
-				//IntegracaoMundo integra = new IntegracaoMundo();
-				//integra.criaCampanhaLista(objects);
+
 				for (DispositivoUsuario item : objects) {
 					System.out.println("Token:" + item.getTokenFcm());
 				}
