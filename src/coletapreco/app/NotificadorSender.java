@@ -49,7 +49,7 @@ public class NotificadorSender {
 		jData.put("tokenNotificacao" , notificador.getTokenNotificacao());
 		
 		
-		jMensagem.put("to", notificador.getTokenFcm());
+		jMensagem.put("to",notificador.getTokenFcm());
 		jMensagem.put("collapse_key", "type_a");
 		jMensagem.put("priority", "high");
 		jMensagem.put("notification" , jNotification);
@@ -86,23 +86,7 @@ public class NotificadorSender {
 
 	
 	
-	public static void main(String[] args) {
-		String token = "esoKlL3Jwcg:APA91bGO5D8ATLT5cSC_drNqwegWiOlr49rYsbciujPg62c6CDNKNxG27HlGgUdguqYKpQ_ZGhjgCudE2FFjeu35_wgnNG7NKaoR42ZnNiDna7G797tt_Jn6B4WAsfvpXik6ZPqs0Gl3";
-		
-		//Oi
-		//token = "dNSo-99-yr8:APA91bH_P_8Q-zTZ8hM4JOrfTLIj7kLXsvvItd21oUUP3qtdO7_D2b_2ty6HaQY52r6uVbjH5FkYtN4WzwSOcyPxlkhzIEDopYrlDrCaXcGQhSUEhiKC-Mp06FXZbrQ5xo-3UYAC3sdV";
-		//Casa
-		token = "ehR5OHvF0Yc:APA91bG8QnkusUmEd7jilT7ACTmGGJJumF8Yx9AmAPaGMxNiaxJtNGhYpZEA8kzPsxuPvv1tt4Txq2LgociJgiKtQNGBnpd0wh-mrfiUIdPhvv7nsQRhiGvAZnMeaJV3avHf2hzKugj8";
-		
-		try {
-			int sucesso = result.getInt("success");
-			if (sucesso==0) {
-				System.out.println(result.toString());
-			}
-		} catch (JSONException e) {
-			e.printStackTrace();
-		}
-	}
+	
 
 	
 

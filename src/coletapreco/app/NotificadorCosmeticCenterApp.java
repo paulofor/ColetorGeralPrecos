@@ -12,6 +12,7 @@ public class NotificadorCosmeticCenterApp {
 	public static NotificacaoApp getNotificacao() {
 		NotificacaoApp notificacao = new NotificacaoApp();
 		notificacao.setTitulo("Cosmetic Center");
+		notificacao.setCorpo("Chegaram novos produtos");
 		return notificacao;
 	}
 
