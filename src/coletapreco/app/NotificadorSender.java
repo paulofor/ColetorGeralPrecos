@@ -22,7 +22,7 @@ public class NotificadorSender {
 	String apiKey = "AIzaSyAtjaGGiAnp-HMs15nfXz7DfVwdK0iKS4w";
 	
 	public JSONObject envia(NotificacaoApp notificador) {
-		System.out.println("Enviador:" + notificador.getTokenFcm());
+		System.out.println("NotificadorSender(TokenFcm):" + notificador.getTokenFcm());
 		try {
 			return enviaMensagem(notificador);
 		} catch (JSONException e) {
@@ -44,15 +44,15 @@ public class NotificadorSender {
 		
 		jNotification.put("title", notificador.getTitulo());
 		jNotification.put("body" , notificador.getCorpo());
-		if (notificador.getCor()!=null) jNotification.put("color" , "#ba5b5b");
-		jNotification.put("click_action","FCM_PLUGIN_ACTIVITY");
+		if (notificador.getCor()==null) jNotification.put("color" , "#ba5b5b");
+		//jNotification.put("click_action","FCM_PLUGIN_ACTIVITY");
 		
 		jData.put("tokenNotificacao" , notificador.getTokenNotificacao());
 		
 		
 		jMensagem.put("to",notificador.getTokenFcm());
 		jMensagem.put("collapse_key", "type_a");
-		jMensagem.put("priority", "high");
+		//jMensagem.put("priority", "high");
 		jMensagem.put("notification" , jNotification);
 		jMensagem.put("data" , jData);
 		
