@@ -45,11 +45,7 @@ public class NotificadorSender {
 		jNotification.put("title", notificador.getTitulo());
 		jNotification.put("body" , notificador.getCorpo());
 		if (notificador.getCor()==null) jNotification.put("color" , "#ba5b5b");
-<<<<<<< HEAD
-		//jNotification.put("click_action","FCM_PLUGIN_ACTIVITY");
-=======
 		jNotification.put("click_action","FCM_PLUGIN_ACTIVITY");
->>>>>>> 5707f610e9ad4925b486a554424216939b9c2926
 		
 		jData.put("tokenNotificacao" , notificador.getTokenNotificacao());
 		
@@ -68,8 +64,8 @@ public class NotificadorSender {
              }
          };
          Authenticator.setDefault(authenticator);    
-         //HttpURLConnection conn = (HttpURLConnection) new URL("https://fcm.googleapis.com/fcm/send").openConnection(proxy);
-         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+         HttpURLConnection conn = (HttpURLConnection) new URL("https://fcm.googleapis.com/fcm/send").openConnection(proxy);
+         //HttpURLConnection conn = (HttpURLConnection) url.openConnection();
          
          conn.setRequestProperty("Authorization", "key=" + apiKey);
          conn.setRequestProperty("Content-Type", "application/json");
