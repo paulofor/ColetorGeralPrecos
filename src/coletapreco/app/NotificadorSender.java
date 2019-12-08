@@ -64,8 +64,8 @@ public class NotificadorSender {
              }
          };
          Authenticator.setDefault(authenticator);    
-         HttpURLConnection conn = (HttpURLConnection) new URL("https://fcm.googleapis.com/fcm/send").openConnection(proxy);
-         //HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+         //HttpURLConnection conn = (HttpURLConnection) new URL("https://fcm.googleapis.com/fcm/send").openConnection(proxy);
+         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
          
          conn.setRequestProperty("Authorization", "key=" + apiKey);
          conn.setRequestProperty("Content-Type", "application/json");
