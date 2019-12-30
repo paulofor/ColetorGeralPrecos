@@ -2,6 +2,7 @@ package coletapreco.app;
 
 import java.util.List;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -20,8 +21,8 @@ public class NotificadorCosmeticCenterObj {
 	final String FALHA = "falha";
 	
 	
-	RestAdapter adapter = new RestAdapter("http://validacao.kinghost.net:21040/api");
-	//RestAdapter adapter = new RestAdapter("http://localhost:21040/api");
+	RestAdapter adapter = new RestAdapter("https://www.digicom.inf.br:21040/api");
+	//RestAdapter adapter = new RestAdapter("https://localhost:21040/api");
 	
 	
 	RepositorioBase.DispositivoUsuarioRepository dispositivoUsuarioRep = adapter
@@ -30,6 +31,7 @@ public class NotificadorCosmeticCenterObj {
 			.createRepository(RepositorioBase.NotificacaoAppRepository.class);
 
 	public void executa(final NotificacaoApp dado) {
+		dado.setProjetoMySqlId(32);
 		dispositivoUsuarioRep.cosmeticCenterNotificacao(new ListCallback<DispositivoUsuario>() {
 			@Override
 			public void onError(Throwable t) {
@@ -70,22 +72,36 @@ public class NotificadorCosmeticCenterObj {
 				resultado = SUCESSO;
 			} else {
 				resultado = FALHA;
+				JSONArray msgErro = (JSONArray) resposta.get("results");
+				notificacao.setErroEnvio(((JSONObject)msgErro.get(0)).getString("error"));
 			}
-			notificacaoAppRep.resultadoEnvio(resultado, notificacao.getTokenNotificacao() , new VoidCallback() {
-
+			notificacao.setResultadoEnvio(resultado);
+			
+			notificacao.save(new VoidCallback() {
 				@Override
 				public void onSuccess() {
-					// TODO Auto-generated method stub
-					
+					System.out.println("Save ok");
 				}
-
 				@Override
 				public void onError(Throwable t) {
-					// TODO Auto-generated method stub
-					
+					System.out.println("Erro save ***** ");
+					t.printStackTrace();
 				}
 				
 			});
+			
+			/*
+			notificacaoAppRep.resultadoEnvio(resultado, notificacao.getTokenNotificacao() , new VoidCallback() {
+				@Override
+				public void onSuccess() {
+				}
+				@Override
+				public void onError(Throwable t) {
+				}
+				
+			});
+			*/
+			
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}

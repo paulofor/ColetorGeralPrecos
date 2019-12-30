@@ -6,12 +6,12 @@ import java.io.OutputStream;
 import java.net.Authenticator;
 import java.net.HttpURLConnection;
 import java.net.InetSocketAddress;
-import java.net.MalformedURLException;
 import java.net.PasswordAuthentication;
 import java.net.Proxy;
 import java.net.URL;
 
 import org.apache.commons.io.IOUtils;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -42,21 +42,44 @@ public class NotificadorSender {
 		JSONObject jData = new JSONObject();
 		JSONObject jMensagem = new JSONObject();
 		
+		// Alterando
+		
 		jNotification.put("title", notificador.getTitulo());
 		jNotification.put("body" , notificador.getCorpo());
 		if (notificador.getCor()==null) jNotification.put("color" , "#ba5b5b");
-		jNotification.put("click_action","FCM_PLUGIN_ACTIVITY");
-		
+		//jNotification.put("click_action","FCM_PLUGIN_ACTIVITY");
+		//jNotification.put("icon", "fcm_push_icon");
+		//jNotification.put("sound", "default");
 		jData.put("tokenNotificacao" , notificador.getTokenNotificacao());
-		
-		
+		jData.put("forceStart", "1");
 		jMensagem.put("to",notificador.getTokenFcm());
 		jMensagem.put("collapse_key", "type_a");
 		//jMensagem.put("priority", "high");
+		//jMensagem.put("restricted_package_name","");
 		jMensagem.put("notification" , jNotification);
 		jMensagem.put("data" , jData);
 		
+		
+		/*
+		jMensagem.put("priority", "high");
+		JSONArray jLista = new JSONArray();
+		jLista.put(notificador.getTokenFcm());
+		jMensagem.put("registration_ids", jLista);
+		jData.put("message", "Message");
+		jData.put("title", "Title");
+		jData.put("vibrate", 1);
+		jData.put("sound", 1);
+		JSONObject jPayLoad = new JSONObject();
+		jPayLoad.put("pushType", 7);
+		jPayLoad.put("title", "Title");
+		jPayLoad.put("description", "Description");
+		jPayLoad.put("source", "http:\\/\\/google.com.mx\\/");
+		jData.put("payload", jPayLoad);
+		jMensagem.put("data", jData);
+		*/
+		
 		URL url = new URL("https://fcm.googleapis.com/fcm/send");
+		
 		Authenticator authenticator = new Authenticator() {
 
              public PasswordAuthentication getPasswordAuthentication() {
