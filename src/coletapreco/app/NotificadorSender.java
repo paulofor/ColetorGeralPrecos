@@ -53,11 +53,11 @@ public class NotificadorSender {
 		jData.put("tokenNotificacao" , notificador.getTokenNotificacao());
 		jData.put("forceStart", "1");
 		jMensagem.put("to",notificador.getTokenFcm());
-		jMensagem.put("collapse_key", "type_a");
+		//jMensagem.put("collapse_key", "type_a");
 		//jMensagem.put("priority", "high");
 		//jMensagem.put("restricted_package_name","");
 		jMensagem.put("notification" , jNotification);
-		jMensagem.put("data" , jData);
+		//jMensagem.put("data" , jData);
 		
 		
 		/*
