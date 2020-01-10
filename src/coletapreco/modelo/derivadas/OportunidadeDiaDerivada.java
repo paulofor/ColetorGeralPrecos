@@ -120,6 +120,6 @@ public class OportunidadeDiaDerivada implements OportunidadeDiaDerivadaI {
 	
 	@Override
 	public boolean aprovadaEnvio() {
-		return true;
+		return (this.principal.getPercentualAjusteVenda() <= 50f);
 	}
 }

@@ -9,7 +9,7 @@ import coletapreco.thread.ProcessaOportunidadeTh;
 public class ColetaCosmeticoApp {
 
 	public static void main(String[] args) {
-		System.out.println("Versao: 09-01-2020 (2)");
+		System.out.println("Versao: 10-01-2020 (1)");
 		
 		LojaVirtualRegraColecao srv = FabricaRegra.getInstancia().getLojaVirtualRegraColecao();
 		ContagemProdutoRegraColecao contagemSrv = FabricaRegra.getInstancia().getContagemProdutoRegraColecao();
