@@ -386,4 +386,7 @@ public class OportunidadeDiaRegraColecaoImpl extends OportunidadeDiaRegraColecao
 		}
 	}
 
+
+	
+
 }

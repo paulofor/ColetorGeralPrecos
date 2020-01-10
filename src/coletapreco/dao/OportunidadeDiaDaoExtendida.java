@@ -83,7 +83,10 @@ public  class OportunidadeDiaDaoExtendida  extends OportunidadeDiaDaoBase implem
 		this.setConexao(conexao);
 		limpaTabela();
 		for (OportunidadeDia item : listaOportunidade) {
-			this.insereItemNuvem(item);
+			item.calculaSugestaoPreco();
+			if (item.aprovadaEnvio()) {
+				this.insereItemNuvem(item);
+			}
 		}
 		ds = new DataSourceAplicacao();
 		this.setDataSource(ds);
@@ -197,4 +200,6 @@ public  class OportunidadeDiaDaoExtendida  extends OportunidadeDiaDaoBase implem
 		" from " + tabelaSelect() + orderByLista();
       	return getListaSql(sql);
 	}
+
+	
 }

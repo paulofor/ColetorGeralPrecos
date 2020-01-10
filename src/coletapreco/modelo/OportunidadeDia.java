@@ -127,5 +127,8 @@ public interface OportunidadeDia extends DCIObjetoDominio , OportunidadeDiaAgreg
 	public void setIdNaturezaProdutoPa(long valor);
 	
 	
+	
+	
+	
 }
 

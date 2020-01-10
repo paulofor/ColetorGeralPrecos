@@ -592,6 +592,16 @@ public class OportunidadeDiaVo implements OportunidadeDia
 	public void setPrecoSugestao(float preco) {
 		this.getDerivada().setPrecoSugestao(preco);
 	}
+
+	@Override
+	public void calculaSugestaoPreco() {
+		this.getDerivada().calculaSugestaoPreco();
+	}
+	
+	@Override
+	public boolean aprovadaEnvio() {
+		return this.getDerivada().aprovadaEnvio();
+	}
 	
 	
 	

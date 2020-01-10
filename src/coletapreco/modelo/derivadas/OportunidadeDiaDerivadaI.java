@@ -17,5 +17,8 @@ public interface OportunidadeDiaDerivadaI
 	
 	public float getPrecoSugestao();
 	public void setPrecoSugestao( float preco );
+	
+	public void calculaSugestaoPreco();
+	public boolean aprovadaEnvio();
 
 }

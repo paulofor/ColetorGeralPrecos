@@ -13,6 +13,8 @@ public abstract class OportunidadeDiaRegraColecao {
 	public OportunidadeDiaRegraColecao() {
 		_filtro = null;
 	}
+	
+
 
 	public List ListaCorrente(DaoConexao conexao) throws DaoException {
 		OportunidadeDiaDao dao = getDao();
@@ -358,5 +360,21 @@ public abstract class OportunidadeDiaRegraColecao {
 		return saida;
 	}
 	public abstract OportunidadeDia CalculaOportunidadesPosicaoHoje(final DaoConexao conexao) throws DaoException;
+	
+	
+	/*
+	public final OportunidadeDia CalculaSugestaoPreco() throws DaoException {
+		OportunidadeDia saida;
+		OportunidadeDiaDao dao = getDao();
+		preparaDaoParaConexao(dao);
+		DaoConexao conexao = null;
+		conexao = dao.criaConexao();
+		saida = CalculaSugestaoPreco(conexao);
+		dao.liberaConexao(conexao);
+		return saida;
+	}
+
+	public abstract OportunidadeDia CalculaSugestaoPreco(final DaoConexao conexao) throws DaoException;
+	*/
 
 }
