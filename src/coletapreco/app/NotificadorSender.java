@@ -83,7 +83,7 @@ public class NotificadorSender {
 		Authenticator authenticator = new Authenticator() {
 
              public PasswordAuthentication getPasswordAuthentication() {
-                 return (new PasswordAuthentication("tr626987", "Mclaren1".toCharArray()));
+                 return (new PasswordAuthentication("tr626987", "LojaDig1".toCharArray()));
              }
          };
          Authenticator.setDefault(authenticator);    
