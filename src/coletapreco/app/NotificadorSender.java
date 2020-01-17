@@ -36,7 +36,7 @@ public class NotificadorSender {
 	
 	private JSONObject enviaMensagem(NotificacaoApp notificador) throws JSONException, IOException {
 		
-		Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("10.21.7.10", 82));
+		//Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("10.21.7.10", 82));
 		
 		JSONObject jNotification = new JSONObject();
 		JSONObject jData = new JSONObject();
