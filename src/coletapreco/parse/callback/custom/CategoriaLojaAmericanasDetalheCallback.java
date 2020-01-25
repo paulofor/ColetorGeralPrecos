@@ -14,7 +14,7 @@ import coletapreco.parse.callback.CategoriaLojaDetalheCallbackHtml;
 
 public class CategoriaLojaAmericanasDetalheCallback extends CategoriaLojaDetalheCallbackHtml {
 
-	private int LIMITE_PAGINA = 250;
+	private int LIMITE_PAGINA = 350;
 	private int contaPagina = 1;
 	private String pedacos[] = null;
 
