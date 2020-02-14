@@ -20,8 +20,8 @@ public class NotificadorCosmeticCenterObj {
 	final String SUCESSO = "sucesso";
 	final String FALHA = "falha";
 
-	RestAdapter adapter = new RestAdapter("https://www.digicom.inf.br:21101/api");
-	//RestAdapter adapter = new RestAdapter("https://www.digicom.inf.br:21040/api");
+	//RestAdapter adapter = new RestAdapter("https://www.digicom.inf.br:21101/api");
+	RestAdapter adapter = new RestAdapter("https://www.digicom.inf.br:21040/api");
 
 	RepositorioBase.DispositivoUsuarioRepository dispositivoUsuarioRep = adapter
 			.createRepository(RepositorioBase.DispositivoUsuarioRepository.class);
