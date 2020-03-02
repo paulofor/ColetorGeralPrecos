@@ -66,7 +66,7 @@ public class EnviadorEmailObj {
 		msg.setSubject(msgVo.getTitulo());
 
 		// msg.setText(msgVo.getMensagem());
-		String arquivo = "/home/usuario/FontesJavaRec/ProjetosJava2/ColetorGeralPrecos/pages/email2.html";
+		String arquivo = "/home/usuario/FontesJavaRec/ProjetosJava2/ColetorGeralPrecos/pages/estudoEmail.html";
 		//msg.setContent(this.getMensagem(msgVo), "text/html; charset=UTF-8");
 
 		msg.setContent(this.leArquivo(arquivo),"text/html; charset=UTF-8");
