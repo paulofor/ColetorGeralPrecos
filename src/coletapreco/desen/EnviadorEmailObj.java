@@ -38,7 +38,7 @@ public class EnviadorEmailObj {
 		email.setTitulo("Confira as oportunidades");
 		email.setMensagem("muito bem chegou");
 
-		envia(email);
+		envia(email, getOportunidade());
 	}
 	
 	private List<OportunidadeDiaVo> getOportunidade() {
@@ -48,12 +48,14 @@ public class EnviadorEmailObj {
 		item.setPrecoVendaAtual(115.52f);
 		item.setPrecoVendaAnterior(132.60f);
 		item.setUrlImagem("https://images-americanas.b2w.io/produtos/01/00/img/1263411/3/1263411362G1.jpg");
+		item.setNomeLojaVirtual("Americanas");
+		lista.add(item);
 		return lista;
 	}
 	
 	
 
-	private void envia(final EmailVo msgVo) throws AddressException, MessagingException, IOException {
+	private void envia(final EmailVo msgVo, List<OportunidadeDiaVo> oportunidades) throws AddressException, MessagingException, IOException {
 		String mailer = "sendhtml";
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
@@ -82,12 +84,22 @@ public class EnviadorEmailObj {
 
 		// msg.setText(msgVo.getMensagem());
 		String arquivo = "/home/usuario/FontesJavaRec/ProjetosJava2/ColetorGeralPrecos/pages/estudoEmail.html";
-		msg.setContent(this.getMensagem(msgVo), "text/html; charset=UTF-8");
+		//msg.setContent(this.getMensagem(msgVo), "text/html; charset=UTF-8");
 
-		//msg.setContent(this.leArquivo(arquivo),"text/html; charset=UTF-8");
+		String textoEmail = this.leArquivo(arquivo);
+		textoEmail = substituiItens(textoEmail,oportunidades);
+		msg.setContent(textoEmail,"text/html; charset=UTF-8");
 		
 		Transport.send(msg);
 	}
+	
+	private String substituiItens(String arquivo, List<OportunidadeDiaVo> listaOportunidade) {
+		arquivo = arquivo.replaceFirst("nomeProduto1", listaOportunidade.get(0).getNomeProduto());
+		arquivo = arquivo.replaceFirst("imagemProduto1", listaOportunidade.get(0).getUrlImagem());
+		arquivo = arquivo.replaceFirst("precoProduto1", listaOportunidade.get(0).getPrecoVendaAtualFormatada());
+		return arquivo;
+	}
+	
 
 	public void collect(BufferedReader in, Message msg) throws MessagingException, IOException {
 		String line;
