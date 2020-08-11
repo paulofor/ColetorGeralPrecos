@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 import javax.activation.DataHandler;
@@ -19,6 +21,7 @@ import javax.mail.internet.MimeMessage;
 import javax.mail.util.ByteArrayDataSource;
 
 import coletapreco.email.EmailVo;
+import coletapreco.modelo.vo.OportunidadeDiaVo;
 
 public class EnviadorEmailObj {
 
@@ -37,6 +40,18 @@ public class EnviadorEmailObj {
 
 		envia(email);
 	}
+	
+	private List<OportunidadeDiaVo> getOportunidade() {
+		List<OportunidadeDiaVo> lista = new ArrayList<OportunidadeDiaVo>();
+		OportunidadeDiaVo item = new OportunidadeDiaVo();
+		item.setNomeProduto("Paleta de Sombras Matte 12 Cores Belle Angel B021 - Display com 12 unidades");
+		item.setPrecoVendaAtual(115.52f);
+		item.setPrecoVendaAnterior(132.60f);
+		item.setUrlImagem("https://images-americanas.b2w.io/produtos/01/00/img/1263411/3/1263411362G1.jpg");
+		return lista;
+	}
+	
+	
 
 	private void envia(final EmailVo msgVo) throws AddressException, MessagingException, IOException {
 		String mailer = "sendhtml";
@@ -67,9 +82,9 @@ public class EnviadorEmailObj {
 
 		// msg.setText(msgVo.getMensagem());
 		String arquivo = "/home/usuario/FontesJavaRec/ProjetosJava2/ColetorGeralPrecos/pages/estudoEmail.html";
-		//msg.setContent(this.getMensagem(msgVo), "text/html; charset=UTF-8");
+		msg.setContent(this.getMensagem(msgVo), "text/html; charset=UTF-8");
 
-		msg.setContent(this.leArquivo(arquivo),"text/html; charset=UTF-8");
+		//msg.setContent(this.leArquivo(arquivo),"text/html; charset=UTF-8");
 		
 		Transport.send(msg);
 	}
