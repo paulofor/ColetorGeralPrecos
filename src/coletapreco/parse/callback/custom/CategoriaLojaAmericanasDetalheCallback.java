@@ -4,12 +4,7 @@ import javax.swing.text.MutableAttributeSet;
 import javax.swing.text.html.HTML;
 import javax.swing.text.html.HTML.Tag;
 
-import coletapreco.log.ArquivoLog;
-import coletapreco.modelo.CategoriaLojaProduto;
-import coletapreco.modelo.FabricaVo;
-import coletapreco.modelo.Marca;
-import coletapreco.modelo.PrecoProduto;
-import coletapreco.modelo.Produto;
+import coletapreco.modelo.CategoriaLoja;
 import coletapreco.parse.callback.CategoriaLojaDetalheCallbackHtml;
 
 public class CategoriaLojaAmericanasDetalheCallback extends CategoriaLojaDetalheCallbackHtml {
@@ -22,12 +17,28 @@ public class CategoriaLojaAmericanasDetalheCallback extends CategoriaLojaDetalhe
 		//this.setDebug();
 	}
 	
-	
+	private boolean ehCosmetico() {
+		CategoriaLoja cateLoja = this.dadosParse.getItemDetalhe();
+		return (cateLoja.getIdNaturezaProdutoRa()==26);
+	}
 	
 
 	@Override
 	public void inicializacao() {
 		super.inicializacao();
+		if (ehCosmetico()) {
+			loopCosmetico();
+		} else {
+			loopOutros();
+		}
+		
+	}
+	
+	private void loopOutros() {
+		
+	}
+	
+	private void loopCosmetico() {
 		contaPagina++;
 		if (pedacos==null) {
 			pedacos = this.getUrlOrigem().split("\\?");
@@ -51,9 +62,10 @@ public class CategoriaLojaAmericanasDetalheCallback extends CategoriaLojaDetalhe
 		}
 	}
 	
-	/*
+
 	public void handleStartTag(HTML.Tag t, MutableAttributeSet a, int pos) {
 		super.handleStartTag(t, a, pos);
+		if (this.ehCosmetico()) return;
 		if (t==HTML.Tag.SPAN && a.getAttribute("aria-label")!=null ) {
 			String valor = (String) a.getAttribute("aria-label");
 			if ("Next".equals(valor)) {
@@ -62,7 +74,6 @@ public class CategoriaLojaAmericanasDetalheCallback extends CategoriaLojaDetalhe
 			}
 		}
 	}
-	*/
 
 	public void handleText(char[] data, int pos) {
 		super.handleText(data, pos);

@@ -51,7 +51,7 @@ public abstract class LojaNaturezaDaoBase extends DaoAplicacao implements LojaNa
 		return "";
 	}
 	public   static String orderBy() {
-		return " order by " + tabelaSelect() + ".url_inicial " ;
+		return " order by " + tabelaSelect() + ".id_loja_virtual_ra " ;
 	}
 	
 	
