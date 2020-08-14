@@ -44,10 +44,10 @@ public class EnviadorEmailObj {
 	private List<OportunidadeDiaVo> getOportunidade() {
 		List<OportunidadeDiaVo> lista = new ArrayList<OportunidadeDiaVo>();
 		OportunidadeDiaVo item = new OportunidadeDiaVo();
-		item.setNomeProduto("Paleta de Sombras Matte 12 Cores Belle Angel B021 - Display com 12 unidades");
-		item.setPrecoVendaAtual(115.52f);
-		item.setPrecoVendaAnterior(132.60f);
-		item.setUrlImagem("https://images-americanas.b2w.io/produtos/01/00/img/1263411/3/1263411362G1.jpg");
+		item.setNomeProduto("Notebook Inspiron I15-3583-A20P Intel Core i5 8GB (AMD Radeon 520 com 2GB) 2TB 15,6   W10 Preto - Dell");
+		item.setPrecoVendaAtual(3999.99f);
+		item.setPrecoVendaAnterior(3999.99f);
+		item.setUrlImagem("https://images-americanas.b2w.io/produtos/01/00/img/134388/6/134388611_1SZ.jpg");
 		item.setNomeLojaVirtual("Americanas");
 		lista.add(item);
 		return lista;
