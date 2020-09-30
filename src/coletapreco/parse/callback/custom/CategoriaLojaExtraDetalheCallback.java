@@ -34,7 +34,7 @@ public class CategoriaLojaExtraDetalheCallback  extends CategoriaLojaDetalheCall
 
 
 	public CategoriaLojaExtraDetalheCallback() {
-		//this.setDebug();
+		this.setDebug();
 		//this.urlCorrente = "http://www.magazineluiza.com.br/laptop-e-tablet-infantil/brinquedos/s/br/lapt/";
 	}
 
@@ -130,7 +130,7 @@ public class CategoriaLojaExtraDetalheCallback  extends CategoriaLojaDetalheCall
 				}
 			}
 		}
-		if ("Próxima".equals(texto.trim()) && getUltTag() == HTML.Tag.A) {
+		if ("Prï¿½xima".equals(texto.trim()) && getUltTag() == HTML.Tag.A) {
 			loop = true;
 			urlCorrente =  this.getUtlUrl();
 		}

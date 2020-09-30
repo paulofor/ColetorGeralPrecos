@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
@@ -20,16 +19,37 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import javax.mail.util.ByteArrayDataSource;
 
+import br.com.digicom.modelo.UsuarioProduto;
+import br.com.digicom.modelo.cosmeticCenter.OportunidadeDia;
 import coletapreco.email.EmailVo;
-import coletapreco.modelo.vo.OportunidadeDiaVo;
+
 
 public class EnviadorEmailObj {
 
 	private String MAILHOST = "smtp.lojadigicom.com.br";
 	private int PORTA = 587;
 	private String PASS = "center777";
+	
+	//private List<OportunidadeDiaVo> listaOportunidade;
+	
+	
+	public void executa(List<UsuarioProduto> listaEmail, List<OportunidadeDia> listaOportunidade) throws AddressException, MessagingException, IOException {
+		EmailVo email = new EmailVo();
+		email.setFromName("Cosmetic Center");
+		email.setFrom("cosmetic.center@lojadigicom.com.br");
+		email.setTitulo("Confira as oportunidades");
+		email.setMensagem("muito bem chegou");
+		
+		for (UsuarioProduto usuario: listaEmail) {
+			System.out.println("Enviando para..." + usuario.getEmail());
+			email.setTo(usuario.getEmail());
+			envia(email,listaOportunidade);
+		}
+		
+	}
+	
 
-	public void executa() throws AddressException, MessagingException, IOException {
+	public void executa(List<OportunidadeDia> listaOportunidade) throws AddressException, MessagingException, IOException {
 		EmailVo email = new EmailVo();
 		email.setFromName("Cosmetic Center");
 		email.setFrom("cosmetic.center@lojadigicom.com.br");
@@ -37,10 +57,11 @@ public class EnviadorEmailObj {
 		// email.setTo("paforestieri@stefanini.com");
 		email.setTitulo("Confira as oportunidades");
 		email.setMensagem("muito bem chegou");
-
-		envia(email, getOportunidade());
+		
+		envia(email,listaOportunidade);
 	}
 	
+	/*
 	private List<OportunidadeDiaVo> getOportunidade() {
 		List<OportunidadeDiaVo> lista = new ArrayList<OportunidadeDiaVo>();
 		OportunidadeDiaVo item = new OportunidadeDiaVo();
@@ -52,10 +73,11 @@ public class EnviadorEmailObj {
 		lista.add(item);
 		return lista;
 	}
+	*/
 	
 	
 
-	private void envia(final EmailVo msgVo, List<OportunidadeDiaVo> oportunidades) throws AddressException, MessagingException, IOException {
+	private void envia(final EmailVo msgVo, List<OportunidadeDia> oportunidades) throws AddressException, MessagingException, IOException {
 		String mailer = "sendhtml";
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
@@ -93,10 +115,28 @@ public class EnviadorEmailObj {
 		Transport.send(msg);
 	}
 	
-	private String substituiItens(String arquivo, List<OportunidadeDiaVo> listaOportunidade) {
+	private String substituiItens(String arquivo, List<OportunidadeDia> listaOportunidade) {
 		arquivo = arquivo.replaceFirst("nomeProduto1", listaOportunidade.get(0).getNomeProduto());
-		arquivo = arquivo.replaceFirst("imagemProduto1", listaOportunidade.get(0).getUrlImagem());
+		arquivo = arquivo.replaceFirst("imagemProduto1", listaOportunidade.get(0).getImagemProduto());
 		arquivo = arquivo.replaceFirst("precoProduto1", listaOportunidade.get(0).getPrecoVendaAtualFormatada());
+		arquivo = arquivo.replaceFirst("precoAnteriorProduto1", listaOportunidade.get(0).getPrecoVendaAnteriorFormatada());
+		arquivo = arquivo.replaceFirst("nomeLoja1", listaOportunidade.get(0).getNomeLojaVirtual());
+
+		
+		
+		arquivo = arquivo.replaceFirst("nomeProduto2", listaOportunidade.get(1).getNomeProduto());
+		arquivo = arquivo.replaceFirst("imagemProduto2", listaOportunidade.get(1).getImagemProduto());
+		arquivo = arquivo.replaceFirst("precoProduto2", listaOportunidade.get(1).getPrecoVendaAtualFormatada());
+		arquivo = arquivo.replaceFirst("precoAnteriorProduto2", listaOportunidade.get(1).getPrecoVendaAnteriorFormatada());
+		arquivo = arquivo.replaceFirst("nomeLoja2", listaOportunidade.get(1).getNomeLojaVirtual());
+		
+		arquivo = arquivo.replaceFirst("nomeProduto3", listaOportunidade.get(2).getNomeProduto());
+		arquivo = arquivo.replaceFirst("imagemProduto3", listaOportunidade.get(2).getImagemProduto());
+		arquivo = arquivo.replaceFirst("precoProduto3", listaOportunidade.get(2).getPrecoVendaAtualFormatada());
+		arquivo = arquivo.replaceFirst("precoAnteriorProduto3", listaOportunidade.get(2).getPrecoVendaAnteriorFormatada());
+		arquivo = arquivo.replaceFirst("nomeLoja3", listaOportunidade.get(2).getNomeLojaVirtual());
+
+		
 		return arquivo;
 	}
 	
