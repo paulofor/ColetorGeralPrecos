@@ -69,6 +69,7 @@ public abstract class CategoriaLojaDetalheCallbackHtmlBase  extends CallbackPars
 	public final void finalizacaoOk() {
 		//if (lista==null) throw new RuntimeException("objeto lista em CategoriaLojaListaCallbackHtmlBase esta null");
 		finalizaObjeto();
+		dadosParse.setUrlOrigem(urlOrigem);
 		dadosParse.finalizacaoOkDetalhe();
 		limpaListasInternas();
 	}

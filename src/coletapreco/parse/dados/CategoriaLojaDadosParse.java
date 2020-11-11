@@ -79,6 +79,7 @@ public class CategoriaLojaDadosParse extends CategoriaLojaDadosParseBase{
 			}
 		
 			ArquivoLog.getInstancia().salvaLog("Produto: " + produto.getNome() + " ( " + produto.getUrl() + " )  cont: " + produto.getPosicaoProduto());
+			ArquivoLog.getInstancia().salvaLog("Origem: " + this.urlOrigem);
 			//ArquivoLog.getInstancia().salvaLogNomeProduto(produto.getNome());
 			
 			//exibeDadosProduto(produto);

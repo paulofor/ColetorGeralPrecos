@@ -22,7 +22,13 @@ public abstract class CategoriaLojaDadosParseBase extends DadosParseDao {
 	protected CategoriaLoja itemDetalhe = null;
 	protected List<CategoriaLoja> lista = null;
 	
+	protected String urlOrigem;
+	
 	private boolean debug;
+	
+	public void setUrlOrigem(String url) {
+		this.urlOrigem = url;
+	}
 	
 	public void setDebug() {
 		debug = true;
@@ -201,6 +207,7 @@ public abstract class CategoriaLojaDadosParseBase extends DadosParseDao {
 			e.printStackTrace();
 		}
 	}
+	
 	
 
 	public void finalizacaoOkLista() {
