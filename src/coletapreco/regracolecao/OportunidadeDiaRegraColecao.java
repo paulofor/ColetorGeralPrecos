@@ -87,6 +87,21 @@ public abstract class OportunidadeDiaRegraColecao {
 	}
 
 	public abstract OportunidadeDia EnviaParaServidor(final DaoConexao conexao) throws DaoException;
+	
+	public final OportunidadeDia EnviaParaServidor(final long idNatureza) throws DaoException {
+		OportunidadeDia saida;
+		OportunidadeDiaDao dao = getDao();
+		preparaDaoParaConexao(dao);
+		DaoConexao conexao = null;
+		conexao = dao.criaConexao();
+		saida = EnviaParaServidor(idNatureza, conexao);
+		dao.liberaConexao(conexao);
+		return saida;
+	}
+
+	public abstract OportunidadeDia EnviaParaServidor(final long idNatureza, final DaoConexao conexao) throws DaoException;
+
+	
 
 	public final OportunidadeDia CalculaOportunidadesHoje() throws DaoException {
 		OportunidadeDia saida;
@@ -100,6 +115,20 @@ public abstract class OportunidadeDiaRegraColecao {
 	}
 
 	public abstract OportunidadeDia CalculaOportunidadesHoje(final DaoConexao conexao) throws DaoException;
+	
+	public final OportunidadeDia CalculaOportunidadesHoje(final long idNatureza) throws DaoException {
+		OportunidadeDia saida;
+		OportunidadeDiaDao dao = getDao();
+		preparaDaoParaConexao(dao);
+		DaoConexao conexao = null;
+		conexao = dao.criaConexao();
+		saida = CalculaOportunidadesHoje(idNatureza, conexao);
+		dao.liberaConexao(conexao);
+		return saida;
+	}
+
+	public abstract OportunidadeDia CalculaOportunidadesHoje(final long idNatureza, final DaoConexao conexao) throws DaoException;
+
 
 	public final List<OportunidadeDia> ListaPorNatureza() throws DaoException {
 		List<OportunidadeDia> saida;

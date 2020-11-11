@@ -31,6 +31,7 @@ public interface OportunidadeDiaDao
 
 	void insereItemPlus( OportunidadeDia item )  throws  DaoException;
 	List ListaCorrentePlus() throws DaoException;
+	List ListaCorrentePlus(long idNatureza) throws DaoException;
 
 
 

@@ -17,8 +17,11 @@ import br.com.digicom.lib.dao.DaoConexao;
 import br.com.digicom.lib.dao.DaoException;
 import br.com.digicom.lib.dao.DataFonte;
 import br.com.digicom.parse.log.DatasUtils;
+import coletapreco.dao.DBB;
 import coletapreco.dao.OportunidadeDiaDao;
+import coletapreco.dao.PrecoDiarioDao;
 import coletapreco.dao.basica.DataSourceAplicacao;
+import coletapreco.dao.basica.DataSourceNuvem;
 import coletapreco.log.ArquivoLog;
 import coletapreco.modelo.FabricaVo;
 import coletapreco.modelo.FacebookFanpage;
@@ -45,17 +48,41 @@ public class OportunidadeDiaRegraColecaoImpl extends OportunidadeDiaRegraColecao
 	public OportunidadeDia EnviaParaServidor(DaoConexao conexao) throws DaoException {
 		OportunidadeDiaDao dao = getDao(conexao);
 		List<OportunidadeDia> listaOportunidade = dao.ListaCorrentePlus();
+		//dao.enviaListaNuvem(listaOportunidade);
+		ArquivoLog.getInstancia().salvaMonitoramento("Envando para nuvem " + listaOportunidade.size() + " itens.");
+
+		/*
+		DataFonte dsNuvem = new DataSourceNuvem();
+		DaoConexao connNuvem = dsNuvem.criaConexao();
+		PrecoDiarioDao daoPreco =  DBB.getInstancia().getPrecoDiarioDao();
+		daoPreco.limparTabelaNuvem(connNuvem);
+		for (OportunidadeDia oportunidade : listaOportunidade) {
+			
+			List<PrecoDiario> listaPreco = daoPreco.ListaPorProdutoPertenceA(oportunidade.getIdProdutoRa(),conexao);
+			daoPreco.enviaListaNuvem(listaPreco, oportunidade, connNuvem);
+		}
+		connNuvem.fechaConexao();
+		*/
+		return null;
+	}
+	
+	public OportunidadeDia EnviaParaServidor(long idNatureza, DaoConexao conexao) throws DaoException {
+		OportunidadeDiaDao dao = getDao(conexao);
+		List<OportunidadeDia> listaOportunidade = dao.ListaCorrentePlus(idNatureza);
 		dao.enviaListaNuvem(listaOportunidade);
 		ArquivoLog.getInstancia().salvaMonitoramento("Envando para nuvem " + listaOportunidade.size() + " itens.");
-		/*
+		System.out.println("Enviando para nuvem " + listaOportunidade.size() + " itens.");
+		
+		DataFonte dsNuvem = new DataSourceNuvem();
+		DaoConexao connNuvem = dsNuvem.criaConexao();
 		PrecoDiarioDao daoPreco =  DBB.getInstancia().getPrecoDiarioDao();
-		daoPreco.limparTabelaNuvem();
+		daoPreco.limparTabelaNuvem(connNuvem, listaOportunidade.get(0).getIdNaturezaProdutoPa());
 		for (OportunidadeDia oportunidade : listaOportunidade) {
-			daoPreco.setConexao(conexao);
-			List<PrecoDiario> listaPreco = daoPreco.ListaPorProdutoPertenceA(oportunidade.getIdProdutoRa());
-			daoPreco.enviaListaNuvem(listaPreco);
+			
+			List<PrecoDiario> listaPreco = daoPreco.ListaPorProdutoPertenceA(oportunidade.getIdProdutoRa(),conexao);
+			daoPreco.enviaListaNuvem(listaPreco, oportunidade, connNuvem);
 		}
-		*/
+		connNuvem.fechaConexao();
 		return null;
 	}
 
@@ -69,7 +96,103 @@ public class OportunidadeDiaRegraColecaoImpl extends OportunidadeDiaRegraColecao
 		PrecoProdutoRegraColecao precoProdutoSrv = FabricaRegra.getInstancia().getPrecoProdutoRegraColecao();
 		precoProdutoSrv.CalculaDiferencaPosicao(conexao);
 	}
-	
+	@Override
+	public OportunidadeDia CalculaOportunidadesHoje(long idNatureza, DaoConexao conexao) throws DaoException {
+		// TODO Auto-generated method stub
+		PrecoDiarioRegraColecao precoDiarioSrv = FabricaRegra.getInstancia().getPrecoDiarioRegraColecao();
+		
+		this.LiberaConexao(conexao);
+		DataFonte dsLocal = new DataSourceAplicacao();
+		conexao = dsLocal.criaConexao();
+		
+		// Calculando Medias e Minimos.
+		this.CalculaMediaMinimo(conexao);
+		// Produtos que evoluiram
+		this.CalculaDiferencaPosicao(conexao);
+		System.out.println("Calculando media e minimos");
+		
+		ProdutoRegraColecao produtoSrv = FabricaRegra.getInstancia().getProdutoRegraColecao();
+		NaturezaProdutoRegraColecao naturezaSrv = FabricaRegra.getInstancia().getNaturezaProdutoRegraColecao();
+		String dataInicio = DatasUtils.getDataAAAA_MM_DD_Add(this.QTDE_DIAS_OPORTUNIDADE * -1);
+		produtoSrv.getFiltro().setDataInicioOportunidade(dataInicio);
+		produtoSrv.getFiltro().setPercentualMinimoOportunidade(this.PERCENTUAL_OPORTUNIDADE);
+		System.out.println("Antes de obter a lista de produto");
+		List<Produto> listaProduto = produtoSrv.OportunidadeDia(conexao);
+		System.out.println("Depois de obter a lista de produto");
+		
+		produtoSrv.setListaEntradaItem(listaProduto);
+		produtoSrv.CorrigeImagemLista(conexao);
+		
+		OportunidadeDiaDao dao = getDao(conexao);
+		dao.limparTabela();
+		OportunidadeDia oportunidade = FabricaVo.criaOportunidadeDia();
+		int i = 1;
+		int zerados = 0;
+		for (Produto item : listaProduto) {
+			System.out.println("Produto: " + item.getIdProduto());
+			if (item.getListaPrecoProduto_Possui().size() > 1) {
+				PrecoProduto precoAtual = (PrecoProduto) item.getListaPrecoProduto_Possui().get(0);
+				PrecoProduto precoAnterior = (PrecoProduto) item.getListaPrecoProduto_Possui().get(1);
+				
+				precoAtual.processaParaOportunidade(item);
+
+				if (precoAtual.getPrecoVenda() != 0 && precoAnterior.getPrecoVenda() != 0) {
+
+					System.out.println((i++) + " de " + listaProduto.size());
+
+					// Tratamento do Produto
+					oportunidade.setIdProdutoRa(item.getIdProduto());
+					oportunidade.setNomeProduto(item.getNome().replace((char)92, (char)32));
+					oportunidade.setUrlProduto(item.getUrl());
+
+					// oportunidade.setUrlImagem(item.getImagem());
+					oportunidade.setImagemLocal(item.getImagemLocal());
+					// oportunidade.setQuantidadeExibicao(0L);
+					// oportunidade.setUrlAfiliado(item.getUrlAfiliado());
+					oportunidade.setUrlImagem(item.getImagem());
+					oportunidade.setNomeMarca(item.getMarcaPossui(false).getNomeMarca());
+					oportunidade.setNomeLojaVirtual(item.getLojaVirtualLidoEm(false).getNomeLojaVirtual());
+					// Natureza Produto
+					naturezaSrv.getFiltro().setProduto(item);
+					NaturezaProduto natureza = naturezaSrv.ObtemPorProduto(conexao);
+					oportunidade.setNaturezaProdutoPertenceA(natureza);
+					// Tratamento de PrecoAtual
+					oportunidade.setDataInicioPrecoAtual(precoAtual.getDataUltimaVisita());
+					oportunidade.setPrecoBoletoAtual(precoAtual.getPrecoBoleto());
+					oportunidade.setPrecoParcelaAtual(precoAtual.getPrecoParcela());
+					oportunidade.setQuantidadeParcelaAtual(precoAtual.getQuantidadeParcela());
+					oportunidade.setPrecoVendaAtual(precoAtual.getPrecoVenda());
+					oportunidade.setPercentualAjusteVenda(precoAtual.getPercentualAjuste());
+
+					// Tratamento de PrecoAnterior
+					oportunidade.setDataUltimaPrecoAnterior(precoAnterior.getDataUltimaVisita());
+					oportunidade.setPrecoBoletoAnterior(precoAnterior.getPrecoBoleto());
+					oportunidade.setPrecoParcelaAnterior(precoAnterior.getPrecoParcela());
+					oportunidade.setQuantidadeParcelaAnterior(precoAnterior.getQuantidadeParcela());
+					oportunidade.setPrecoVendaAnterior(precoAnterior.getPrecoVenda());
+					oportunidade.setPrecoMedio(precoAtual.getMedia2meses());
+					oportunidade.setPrecoMinimo(precoAtual.getMinimo3meses());
+					
+					// Preco Sugestao
+					oportunidade.setPrecoSugestao(precoAtual.getPrecoSugestao());
+					
+					precoDiarioSrv.getFiltro().setIdProduto(item.getIdProduto());
+					PrecoDiario preco = precoDiarioSrv.ObtemMaisRecentePorIdProduto(conexao);
+					oportunidade.setPosicaoProduto(preco.getPosicaoProduto());
+					
+					
+					
+					dao.insereItem(oportunidade);
+				}
+			} else {
+				//System.out.println("Preco zerado.");
+				zerados++;
+			}
+		}
+		System.out.println("Total zerados: " + zerados);
+		
+		return null;
+	}
 	public OportunidadeDia CalculaOportunidadesHoje(DaoConexao conexao) throws DaoException {
 
 		PrecoDiarioRegraColecao precoDiarioSrv = FabricaRegra.getInstancia().getPrecoDiarioRegraColecao();
@@ -385,6 +508,8 @@ public class OportunidadeDiaRegraColecaoImpl extends OportunidadeDiaRegraColecao
 			dao.insereItemPlus(oportunidade);
 		}
 	}
+
+	
 
 
 	

@@ -34,7 +34,7 @@ public class CategoriaLojaPontoFrioDetalheCallback  extends CategoriaLojaDetalhe
 
 
 	public CategoriaLojaPontoFrioDetalheCallback() {
-		//this.setDebug();
+		this.setDebug();
 		//this.urlCorrente = "http://www.magazineluiza.com.br/laptop-e-tablet-infantil/brinquedos/s/br/lapt/";
 	}
 
@@ -119,7 +119,7 @@ public class CategoriaLojaPontoFrioDetalheCallback  extends CategoriaLojaDetalhe
 				}
 			}
 		}
-		if ("próxima".equals(texto.toLowerCase().trim()) && getUltTag() == HTML.Tag.A) {
+		if ("prï¿½xima".equals(texto.toLowerCase().trim()) && getUltTag() == HTML.Tag.A) {
 			loop = true;
 			urlCorrente =   this.getUtlUrl();
 		}

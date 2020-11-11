@@ -5,6 +5,7 @@ import java.util.List;
 import coletapreco.dao.montador.*;
 import coletapreco.modelo.PrecoDiario;
 import coletapreco.regracolecao.filtro.PrecoDiarioFiltro;
+import br.com.digicom.lib.dao.DaoConexao;
 import br.com.digicom.lib.dao.DaoException;
 import br.com.digicom.lib.dao.DataFonte;
 import br.com.digicom.lib.dao.MontadorDaoI;
@@ -250,19 +251,27 @@ public abstract class PrecoDiarioDaoBase extends DaoAplicacao implements PrecoDi
 	
 	
 	// Tratamento de objetos que possuem FK nesse objeto para objetos nao associativos
-	public List getPorPertenceAProduto(long id) throws DaoException {
+	public List getPorPertenceAProduto(long id, DaoConexao conexao) throws DaoException {
 		setMontador(null);
 		String sql;
       	sql = "select " + camposOrdenadosJoin() + " from " + tabelaSelect() + 
         outterJoinAgrupado() +
        	" where id_produto_pa = " + id + orderByLista() + " " + getLimite();
        	setMontador(getMontadorAgrupado());
-      	return getListaSql(sql);
+       	if (conexao==null)
+       		return getListaSql(sql);
+       	else 
+       		return getListaSql(sql,conexao);
 	}
 	// Estavam no Extendida - Depois colocar como final (tratar order e limit) -> limite 08/01/2016
 	public List ListaPorProdutoPertenceA(long id) throws DaoException {
-		return getPorPertenceAProduto(id);
+		return getPorPertenceAProduto(id, null);
 	}
+	@Override
+	public List ListaPorProdutoPertenceA(long id, DaoConexao conexao) throws DaoException {
+		// TODO Auto-generated method stub
+		return getPorPertenceAProduto(id,conexao);
+	} 
 	public boolean excluiPorPertenceAProduto(long id) throws DaoException{
 		setMontador(null);
 		String sql;

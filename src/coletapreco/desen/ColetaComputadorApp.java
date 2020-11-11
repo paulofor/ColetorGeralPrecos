@@ -18,6 +18,7 @@ public class ColetaComputadorApp {
 			
 			srv.AtualizaNotebook();
 			//contagemSrv.RegistraQuantidadesDia();
+			//oportunidade.setIdNatureza(10);
 			//oportunidade.run();
 			//contagemSrv.EnviaParaServidor();
 			

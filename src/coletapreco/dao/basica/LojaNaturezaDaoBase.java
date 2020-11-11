@@ -284,7 +284,7 @@ public abstract class LojaNaturezaDaoBase extends DaoAplicacao implements LojaNa
             tabelaSelect() + ".id_loja_virtual_ra" +
             " where id_natureza_produto_ra = " + id + " " +
             // apagar depois 29-09-2020
-            " and id_loja_virtual = 8 " +
+            //" and id_loja_virtual = 7 " +
             criterioExclusaoNaturezaProdutoReferenteA() + " " +
             orderByLista();
         MontadorDaoComposite montador = new MontadorDaoComposite();

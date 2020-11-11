@@ -40,6 +40,7 @@ public  class OportunidadeDiaDaoExtendida  extends OportunidadeDiaDaoBase implem
 		+ " ,dataInicioPrecoAtual"
 		+ " ,dataUltimaPrecoAnterior"
 		+ " ,percentualAjusteVenda"
+		+ " ,idNaturezaProduto"
 		+ " ) ";
 	}
 	
@@ -59,6 +60,7 @@ public  class OportunidadeDiaDaoExtendida  extends OportunidadeDiaDaoBase implem
 				+ " ," + (item.getDataInicioPrecoAtual()==null?"null":DCConvert.ToDataSqlAAAA_MM_DD(item.getDataInicioPrecoAtual()) ) + "  "
 				+ " ," + (item.getDataUltimaPrecoAnterior()==null?"null":DCConvert.ToDataSqlAAAA_MM_DD(item.getDataUltimaPrecoAnterior()) ) + "  "
 				+ " ,'" +  DCConvert.ToDataBase(item.getPercentualAjusteVenda()) + "'  "
+				+ " , " + item.getIdNaturezaProdutoPa() 
 				+ " ) ";
 	}
 
@@ -198,6 +200,15 @@ public  class OportunidadeDiaDaoExtendida  extends OportunidadeDiaDaoBase implem
 		camposOrdenados() + 
 		" , oportunidade_dia.preco_sugestao " +
 		" from " + tabelaSelect() + orderByLista();
+      	return getListaSql(sql);
+	}
+	public List ListaCorrentePlus(long idNatureza) throws DaoException {
+		setMontador(new OportunidadeDiaMontadorPlus());
+		String sql;
+      	sql = "select " + 
+		camposOrdenados() + 
+		" , oportunidade_dia.preco_sugestao " +
+		" from " + tabelaSelect() + " where id_natureza_produto_pa = " + idNatureza + orderByLista();
       	return getListaSql(sql);
 	}
 

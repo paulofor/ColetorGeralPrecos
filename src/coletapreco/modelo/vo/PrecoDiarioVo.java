@@ -256,6 +256,28 @@ public class PrecoDiarioVo implements PrecoDiario
 	public void setIdProdutoPa(long _valor) {
 		idProdutoPa = _valor;
 	}
+
+	long idOportunidadeDia;
+	@Override
+	public long getIdOportunidadeDia() {
+		return idOportunidadeDia;
+	}
+
+	@Override
+	public void setIdOportunidadeDia(long id) {
+		idOportunidadeDia = id;
+	}
+
+	long idNaturezaProduto;
+	@Override
+	public long getIdNaturezaProduto() {
+		return idNaturezaProduto;
+	}
+
+	@Override
+	public void setIdNaturezaProduto(long id) {
+		idNaturezaProduto = id;
+	}
 	
 	
 	

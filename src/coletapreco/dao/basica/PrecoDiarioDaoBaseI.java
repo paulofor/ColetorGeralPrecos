@@ -26,6 +26,7 @@ public interface PrecoDiarioDaoBaseI
 	public List ListaCorrenteAgrupada()  throws  DaoException;
 
 	public List ListaPorProdutoPertenceA( long idItem )  throws  DaoException;
+	public List ListaPorProdutoPertenceA(long id, DaoConexao conexao )  throws  DaoException;
 
 
 

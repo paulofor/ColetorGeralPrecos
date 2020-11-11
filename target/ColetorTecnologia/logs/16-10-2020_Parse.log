@@ -1,0 +1,674 @@
+(00:20:05) Loja:Americanas
+(00:22:07) Categoria:Notebooks
+(00:22:07) CategoriaLoja(detalhe):CategoriaLoja {IdCategoriaLoja:817;Nome:Notebooks;Url:https://www.americanas.com.br/categoria/informatica/notebooks?pagina-1;DataInclusao:20-03-2015;IdCategoriaLojaF:0;IdNaturezaProdutoRa:10;IdLojaVirtualPa:1;}
+(00:22:09) URL: https://www.americanas.com.br/categoria/informatica/notebooks?pagina-1
+(00:22:14) Produto: Notebook Lenovo Ideapad S145 AMD Ryzen 5 12GB 1TB W10 15,6" Prata ( https://www.americanas.com.br/produto/1608469552?pfm_carac=Notebooks&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 1
+(00:22:16) Produto existe (id:1612184)
+(00:22:17) Preço Produto: Venda: 3699,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:17) Preçco mais recente: Venda: 3419,99 ( 0 x 0,00 ) Id PrecoProduto: 6914229
+(00:22:17) Mudança de preço
+(00:22:17) Mudança de preço (Ajuste:-8.187159)
+(00:22:18) Produto: Notebook Lenovo Ideapad S145 8ª Intel Core I3 4GB 1TB W10 15.6" Prata ( https://www.americanas.com.br/produto/1508129497?pfm_carac=Notebooks&pfm_index=1&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 2
+(00:22:20) Produto existe (id:1566887)
+(00:22:20) Preço Produto: Venda: 2944,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:20) Preçco mais recente: Venda: 2944,99 ( 0 x 0,00 ) Id PrecoProduto: 6914230
+(00:22:20) Mesmo preço
+(00:22:20) Produto: Notebook Compaq Presario CQ-25 Intel Pentium 4GB 120GB SSD 14   Windows 10 - Cinza ( https://www.americanas.com.br/produto/1818873801?pfm_carac=Notebooks&pfm_index=2&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 3
+(00:22:22) Produto existe (id:1612185)
+(00:22:22) Preço Produto: Venda: 1799,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:22) Preçco mais recente: Venda: 1799,99 ( 0 x 0,00 ) Id PrecoProduto: 6906713
+(00:22:22) Mesmo preço
+(00:22:23) Produto: Notebook Samsung Book X30 10ª Intel Core I5 8GB 1TB Windows 10 15,6" - Prata ( https://www.americanas.com.br/produto/1772551056?pfm_carac=Notebooks&pfm_index=3&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 4
+(00:22:25) Produto existe (id:1567397)
+(00:22:25) Preço Produto: Venda: 3799,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:25) Preçco mais recente: Venda: 3699,99 ( 0 x 0,00 ) Id PrecoProduto: 6832977
+(00:22:25) Mudança de preço
+(00:22:25) Mudança de preço (Ajuste:-2.7027102)
+(00:22:25) Produto: Notebook Positivo Motion Q464B Intel Atom Quad core 4GB 64GB SSD + 64GB Nuvem 14" W10 Vermelho ( https://www.americanas.com.br/produto/1506963998?pfm_carac=Notebooks&pfm_index=4&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 5
+(00:22:27) Produto nao existe
+(00:22:27) Codigo Produto:1622200
+(00:22:27) Preço Produto: Venda: 1699,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:27) Não existe preço
+(00:22:27) Produto: Notebook Acer Aspire 3 A315-56-35ET 10ª Intel Core i3 8GB 512GB SSD 15,6" Windows 10 - Cinza ( https://www.americanas.com.br/produto/1824323427?pfm_carac=Notebooks&pfm_index=5&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 6
+(00:22:29) Produto nao existe
+(00:22:29) Codigo Produto:1622201
+(00:22:29) Preço Produto: Venda: 3299,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:29) Não existe preço
+(00:22:29) Produto: Notebook Lenovo Ideapad S145 AMD Ryzen 5 8GB 1TB W10 15,6" Prata ( https://www.americanas.com.br/produto/1507968328?pfm_carac=Notebooks&pfm_index=6&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 7
+(00:22:31) Produto existe (id:1612187)
+(00:22:31) Preço Produto: Venda: 3499,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:31) Preçco mais recente: Venda: 3499,99 ( 0 x 0,00 ) Id PrecoProduto: 6906717
+(00:22:31) Mesmo preço
+(00:22:32) Produto: Notebook Acer Aspire 5 A515-54-59X2 10ª Intel Core i5 8GB 512GB SSD 15,6" Windows 10 - Prata ( https://www.americanas.com.br/produto/1824323591?pfm_carac=Notebooks&pfm_index=7&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 8
+(00:22:34) Produto nao existe
+(00:22:34) Codigo Produto:1622202
+(00:22:34) Preço Produto: Venda: 3999,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:34) Não existe preço
+(00:22:34) Produto: Notebook Samsung Book E20 Intel Celeron 4GB 500GB W10 15,6" Prata ( https://www.americanas.com.br/produto/1772549239?pfm_carac=Notebooks&pfm_index=9&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 9
+(00:22:36) Produto existe (id:1568389)
+(00:22:36) Preço Produto: Venda: 2599,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:36) Preçco mais recente: Venda: 2599,00 ( 0 x 0,00 ) Id PrecoProduto: 6914235
+(00:22:36) Mudança de preço
+(00:22:36) Mudança de preço (Ajuste:-0.038091198)
+(00:22:36) Produto: Notebook Lenovo Ideapad S145 AMD Ryzen 7 8GB W10 SSD 256GB 15.6 Prata ( https://www.americanas.com.br/produto/1507408048?pfm_carac=Notebooks&pfm_index=10&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 10
+(00:22:38) Produto nao existe
+(00:22:38) Codigo Produto:1622203
+(00:22:38) Preço Produto: Venda: 4299,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:38) Não existe preço
+(00:22:38) Produto: Notebook Samsung Book E30 10ª Intel Core i3 4GB 1TB W10 15,6" FHD - Prata ( https://www.americanas.com.br/produto/1772549925?pfm_carac=Notebooks&pfm_index=11&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 11
+(00:22:40) Produto existe (id:1617081)
+(00:22:40) Preço Produto: Venda: 3199,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:40) Preçco mais recente: Venda: 3199,99 ( 0 x 0,00 ) Id PrecoProduto: 6914237
+(00:22:40) Mesmo preço
+(00:22:40) Produto: Notebook Dell Inspiron I15-3583-A3XP 8ª Intel Core I5 8GB 1TB Tela 15,6" Windows 10 - Preto ( https://www.americanas.com.br/produto/134544345?pfm_carac=Notebooks&pfm_index=12&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 12
+(00:22:42) Produto existe (id:1617082)
+(00:22:42) Preço Produto: Venda: 3899,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:42) Preçco mais recente: Venda: 3899,99 ( 0 x 0,00 ) Id PrecoProduto: 6914238
+(00:22:42) Mesmo preço
+(00:22:42) Produto: Notebook Samsung Book X40 10ª Intel Core i5 8GB (Geforce MX110 com 2GB) 1TB W10 15,6" Prata ( https://www.americanas.com.br/produto/1772549028?pfm_carac=Notebooks&pfm_index=13&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 13
+(00:22:44) Produto nao existe
+(00:22:44) Codigo Produto:1622204
+(00:22:44) Preço Produto: Venda: 3799,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:44) Não existe preço
+(00:22:44) Produto: Notebook Acer Aspire 3 A315-54-55WY Intel Corei5 8GB 256GB SSD W10 15.6 ( https://www.americanas.com.br/produto/1824323515?pfm_carac=Notebooks&pfm_index=14&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 14
+(00:22:46) Produto existe (id:1577137)
+(00:22:47) Preço Produto: Venda: 3699,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:47) Preçco mais recente: Venda: 3599,99 ( 0 x 0,00 ) Id PrecoProduto: 6848235
+(00:22:47) Mudança de preço
+(00:22:47) Mudança de preço (Ajuste:-2.7777855)
+(00:22:47) Produto: Notebook Lenovo Ideapad S145 8ª Intel Core i5 8GB (GeForce MX110 com 2GB) 1TB 15,6" Windows 10 - Prata ( https://www.americanas.com.br/produto/1824484458?pfm_carac=Notebooks&pfm_index=16&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 15
+(00:22:49) Produto existe (id:1578492)
+(00:22:49) Preço Produto: Venda: 3699,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:49) Preçco mais recente: Venda: 3649,99 ( 0 x 0,00 ) Id PrecoProduto: 6849636
+(00:22:49) Mudança de preço
+(00:22:49) Mudança de preço (Ajuste:-1.3698667)
+(00:22:49) Produto: Notebook Lenovo Ideapad S145 8ª Intel Core I5 8GB 1TB HD 15,6" W10 Prata ( https://www.americanas.com.br/produto/134573365?pfm_carac=Notebooks&pfm_index=17&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 16
+(00:22:51) Produto nao existe
+(00:22:51) Codigo Produto:1622205
+(00:22:51) Preço Produto: Venda: 3699,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:51) Não existe preço
+(00:22:51) Produto: Notebook Asus X543UA-GQ3213T Intel Core I5 8GB 256GB SSD W10 Cinza Escuro ( https://www.americanas.com.br/produto/1774800790?pfm_carac=Notebooks&pfm_index=18&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 17
+(00:22:53) Produto existe (id:1566321)
+(00:22:53) Preço Produto: Venda: 3680,59 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:53) Preçco mais recente: Venda: 3509,99 ( 0 x 0,00 ) Id PrecoProduto: 6831869
+(00:22:53) Mudança de preço
+(00:22:53) Mudança de preço (Ajuste:-4.8604155)
+(00:22:53) Produto: Notebook Acer Aspire 3 A315-42G-R2LK AMD Ryzen 7 12GB 512GB SSD Radeon 540X 15,6  Windows 10 ( https://www.americanas.com.br/produto/1938460454?pfm_carac=Notebooks&pfm_index=19&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 18
+(00:22:55) Produto nao existe
+(00:22:55) Codigo Produto:1622206
+(00:22:55) Preço Produto: Venda: 4499,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:55) Não existe preço
+(00:22:55) Produto: Notebook Dell Inspiron I15-3584-AS50P 8ª Intel Core I3 4GB 256GB SSD 15,6" W10 Preto ( https://www.americanas.com.br/produto/1809973106?pfm_carac=Notebooks&pfm_index=20&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 19
+(00:22:57) Produto existe (id:1612198)
+(00:22:57) Preço Produto: Venda: 3299,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:57) Preçco mais recente: Venda: 3299,99 ( 0 x 0,00 ) Id PrecoProduto: 6906730
+(00:22:57) Mesmo preço
+(00:22:57) Produto: Notebook Samsung Book X30 10ª Intel Core I5 8GB 1TB W10 15,6" Branco ( https://www.americanas.com.br/produto/1774660352?pfm_carac=Notebooks&pfm_index=21&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 20
+(00:22:59) Produto nao existe
+(00:22:59) Codigo Produto:1622207
+(00:22:59) Preço Produto: Venda: 3649,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:22:59) Não existe preço
+(00:22:59) Produto: Notebook Samsung Book X40 10ª Intel Core i5 8GB (Geforce MX110 com 2GB) 1TB W10 15,6" Branco ( https://www.americanas.com.br/produto/1772551064?pfm_carac=Notebooks&pfm_index=22&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 21
+(00:23:01) Produto nao existe
+(00:23:01) Codigo Produto:1622208
+(00:23:01) Preço Produto: Venda: 3799,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:01) Não existe preço
+(00:23:01) Produto: Notebook Samsung Book X50 10ª Intel Core i7 8GB (Geforce MX110 com 2GB) 1TB 15,6" Windows 10 - Prata ( https://www.americanas.com.br/produto/1772548981?pfm_carac=Notebooks&pfm_index=23&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 22
+(00:23:03) Produto nao existe
+(00:23:03) Codigo Produto:1622209
+(00:23:03) Preço Produto: Venda: 4699,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:03) Não existe preço
+(00:23:07) Produto: Notebook Lenovo Ideapad S145 Intel Celeron 4GB 500GB 15,6" W10 Prata ( https://www.americanas.com.br/produto/471642069?pfm_carac=Notebooks&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 23
+(00:23:09) Produto nao existe
+(00:23:09) Codigo Produto:1622210
+(00:23:09) Preço Produto: Venda: 2399,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:09) Não existe preço
+(00:23:09) Produto: Notebook Positivo 2 em 1 Duo C464C Intel Celeron 4GB 64GB W10 IPS Full HD 12" ( https://www.americanas.com.br/produto/1885941991?pfm_carac=Notebooks&pfm_index=2&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 24
+(00:23:11) Produto existe (id:1581414)
+(00:23:11) Preço Produto: Venda: 1699,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:11) Preçco mais recente: Venda: 1649,99 ( 0 x 0,00 ) Id PrecoProduto: 6855155
+(00:23:11) Mudança de preço
+(00:23:11) Mudança de preço (Ajuste:-3.0303214)
+(00:23:11) Produto: Notebook Vaio FE14 B0441H 8ª Intel Core I3 4GB 1TB FHD 14" Linux ( https://www.americanas.com.br/produto/1539221034?pfm_carac=Notebooks&pfm_index=4&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 25
+(00:23:13) Produto existe (id:1571718)
+(00:23:13) Preço Produto: Venda: 3119,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:13) Preçco mais recente: Venda: 2799,99 ( 0 x 0,00 ) Id PrecoProduto: 6840245
+(00:23:13) Mudança de preço
+(00:23:13) Mudança de preço (Ajuste:-11.428613)
+(00:23:13) Produto: Chromebook Samsung AD2BR Intel Celeron 4GB 16GB LED HD 11,6" Chrome OS Grafite ( https://www.americanas.com.br/produto/209927739?pfm_carac=Notebooks&pfm_index=5&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 26
+(00:23:15) Produto existe (id:1555037)
+(00:23:15) Preço Produto: Venda: 1579,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:15) Preçco mais recente: Venda: 1577,00 ( 0 x 0,00 ) Id PrecoProduto: 6906739
+(00:23:15) Mudança de preço
+(00:23:15) Mudança de preço (Ajuste:-0.18959989)
+(00:23:15) Produto: Notebook Gamer Acer Aspire Nitro AN515-43-R9K7 AMD R5 8GB (GeForce GTX1650 4GB) 1TB + 256GB SSD 15,6" Endless Os ( https://www.americanas.com.br/produto/1824323531?pfm_carac=Notebooks&pfm_index=7&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 27
+(00:23:17) Produto nao existe
+(00:23:17) Codigo Produto:1622211
+(00:23:17) Preço Produto: Venda: 5129,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:17) Não existe preço
+(00:23:17) Produto: Notebook Positivo Motion Red Q464A 4GB 64GB SSD + 64GB Nuvem 14” Windows 10 HOME - Vermelho ( https://www.americanas.com.br/produto/1936924497?pfm_carac=Notebooks&pfm_index=9&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 28
+(00:23:19) Produto nao existe
+(00:23:19) Codigo Produto:1622212
+(00:23:19) Preço Produto: Venda: 1597,06 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:19) Não existe preço
+(00:23:19) Produto: Notebook Positivo Motion Intel Atom Q464B 4GB 64GB SSD 14" Windows 10 Cinza ( https://www.americanas.com.br/produto/1682950125?pfm_carac=Notebooks&pfm_index=11&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 29
+(00:23:21) Produto existe (id:1567901)
+(00:23:21) Preço Produto: Venda: 1673,11 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:21) Preçco mais recente: Venda: 1799,90 ( 0 x 0,00 ) Id PrecoProduto: 6833499
+(00:23:21) Mudança de preço
+(00:23:21) Mudança de preço (Ajuste:7.0442824)
+(00:23:21) Produto: Notebook Lenovo Ultrafino Ideapad S145 8ª Intel Core I7 8GB (Geforce MX110 com 2GB) 1TB FHD 15,6" W10 Prata ( https://www.americanas.com.br/produto/134573381?pfm_carac=Notebooks&pfm_index=13&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 30
+(00:23:24) Produto nao existe
+(00:23:24) Codigo Produto:1622213
+(00:23:24) Preço Produto: Venda: 4599,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:24) Não existe preço
+(00:23:24) Produto: Notebook Samsung Flash F30 Intel Celeron 4GB 64GB SSD Tela Full HD 13.3" Windows 10 - Cinza ( https://www.americanas.com.br/produto/134187878?pfm_carac=Notebooks&pfm_index=14&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 31
+(00:23:26) Produto existe (id:1617105)
+(00:23:26) Preço Produto: Venda: 2899,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:26) Preçco mais recente: Venda: 2899,00 ( 0 x 0,00 ) Id PrecoProduto: 6914262
+(00:23:26) Mesmo preço
+(00:23:26) Produto: Notebook Positivo Motion C4500DI 14.1   HD Celeron Dual Core 500GB 4GB Linux Cinza Escuro ( https://www.americanas.com.br/produto/1861735471?pfm_carac=Notebooks&pfm_index=15&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 32
+(00:23:28) Produto existe (id:1598499)
+(00:23:28) Preço Produto: Venda: 1799,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:28) Preçco mais recente: Venda: 2149,00 ( 0 x 0,00 ) Id PrecoProduto: 6883928
+(00:23:28) Mudança de preço
+(00:23:28) Mudança de preço (Ajuste:16.286644)
+(00:23:28) Produto: Notebook Samsung Book X20 10ª Intel Core I5 4GB 1TB W10 15,6" FHD Prata ( https://www.americanas.com.br/produto/1772550483?pfm_carac=Notebooks&pfm_index=16&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 33
+(00:23:30) Produto nao existe
+(00:23:30) Codigo Produto:1622214
+(00:23:30) Preço Produto: Venda: 3599,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:30) Não existe preço
+(00:23:30) Produto: Notebook Gamer Predator PH315-52-79VM Intel Core i7 16GB 256GB SDD 1TB HD RTX 2060 15,6 Endless ( https://www.americanas.com.br/produto/1876922211?pfm_carac=Notebooks&pfm_index=17&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 34
+(00:23:32) Produto nao existe
+(00:23:32) Codigo Produto:1622215
+(00:23:32) Preço Produto: Venda: 8799,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:32) Não existe preço
+(00:23:32) Produto: Notebook 2 em 1 Dell Inspiron i14-5481-M11 8ª Geração Intel Core i3 4GB 128GB SSD 14" Touch Windows 10 McAfee ( https://www.americanas.com.br/produto/93608447?pfm_carac=Notebooks&pfm_index=20&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 35
+(00:23:34) Produto existe (id:1576223)
+(00:23:34) Preço Produto: Venda: 3709,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:35) Preçco mais recente: Venda: 3829,00 ( 0 x 0,00 ) Id PrecoProduto: 6847272
+(00:23:35) Mudança de preço
+(00:23:35) Mudança de preço (Ajuste:3.1339777)
+(00:23:35) Produto: Notebook Ultrafino Dell Inspiron 5490-m10l 10ª Geração Intel Core I5 8gb 256gb Ssd Full Hd 14" Windows 10 Lilás-prata ( https://www.americanas.com.br/produto/1389530754?pfm_carac=Notebooks&pfm_index=21&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 36
+(00:23:37) Produto existe (id:1556893)
+(00:23:37) Preço Produto: Venda: 5249,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:37) Preçco mais recente: Venda: 5489,00 ( 0 x 0,00 ) Id PrecoProduto: 6815798
+(00:23:37) Mudança de preço
+(00:23:37) Mudança de preço (Ajuste:4.372381)
+(00:23:37) Produto: Notebook Dell Inspiron I15-3583-A5XP 8ª Intel Core i7 8GB 2TB Tela LED 15,6" Windows 10 - Preto ( https://www.americanas.com.br/produto/612449052?pfm_carac=Notebooks&pfm_index=22&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 37
+(00:23:39) Produto existe (id:1589138)
+(00:23:39) Preço Produto: Venda: 4699,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:39) Preçco mais recente: Venda: 4879,99 ( 0 x 0,00 ) Id PrecoProduto: 6869649
+(00:23:39) Mudança de preço
+(00:23:39) Mudança de preço (Ajuste:3.688532)
+(00:23:39) Produto: Notebook Lenovo Ultrafino ideapad S145 i7-1065G7 8GB  Placa de Vídeo Intel Iris Plus  256GB SSD W10 15.6" FHD - Prata ( https://www.americanas.com.br/produto/1961678662?pfm_carac=Notebooks&pfm_index=23&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 38
+(00:23:41) Produto existe (id:1581450)
+(00:23:41) Preço Produto: Venda: 4799,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:41) Preçco mais recente: Venda: 4499,99 ( 0 x 0,00 ) Id PrecoProduto: 6855196
+(00:23:41) Mudança de preço
+(00:23:41) Mudança de preço (Ajuste:-6.6666813)
+(00:23:44) Produto: Notebook Lenovo Ideapad S145 10ª Intel Core i5 8GB 1TB Windows 10 15,6" Prata ( https://www.americanas.com.br/produto/1725483978?pfm_carac=Notebooks&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 39
+(00:23:46) Produto nao existe
+(00:23:46) Codigo Produto:1622216
+(00:23:46) Preço Produto: Venda: 4290,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:46) Não existe preço
+(00:23:46) Produto: Notebook Asus Vivobook X512FB-BR468T 8ª Intel Core I5 8GB (Geforce MX110 com 2GB) 1TB 15,6   Windows 10 - Cinza Escuro ( https://www.americanas.com.br/produto/1774800811?pfm_carac=Notebooks&pfm_index=1&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 40
+(00:23:48) Produto nao existe
+(00:23:48) Codigo Produto:1622217
+(00:23:48) Preço Produto: Venda: 3699,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:48) Não existe preço
+(00:23:48) Produto: Notebook Dell Inspiron I15-3583-AS100P 8ª Intel Core I7 8GB (Placa AMD Radeon 520 com 2GB) 256GB SSD 15,6" W10 ( https://www.americanas.com.br/produto/1936036502?pfm_carac=Notebooks&pfm_index=2&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 41
+(00:23:50) Produto existe (id:1585008)
+(00:23:50) Preço Produto: Venda: 4899,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:50) Preçco mais recente: Venda: 4999,99 ( 0 x 0,00 ) Id PrecoProduto: 6862227
+(00:23:50) Mudança de preço
+(00:23:50) Mudança de preço (Ajuste:2.0000038)
+(00:23:50) Produto: Notebook Samsung Flash F30 Intel Celeron 4GB 64GB SSD Full HD Tela LED 13.3" Windows 10 - Coral ( https://www.americanas.com.br/produto/134187974?pfm_carac=Notebooks&pfm_index=4&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 42
+(00:23:52) Produto nao existe
+(00:23:52) Codigo Produto:1622218
+(00:23:52) Preço Produto: Venda: 2849,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:52) Não existe preço
+(00:23:52) Produto: Notebook Dell Inspiron i14-3481-M40S 8ª geração Intel Core i3 4GB 128GB SSD 14" Windows 10 Prata ( https://www.americanas.com.br/produto/80805415?pfm_carac=Notebooks&pfm_index=6&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 43
+(00:23:54) Produto existe (id:1603736)
+(00:23:54) Preço Produto: Venda: 3389,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:54) Preçco mais recente: Venda: 3389,00 ( 0 x 0,00 ) Id PrecoProduto: 6892240
+(00:23:54) Mesmo preço
+(00:23:54) Produto: Notebook Dell Inspiron I15-3583-A2XP 8ª Intel Core I5 4GB 1TB LED HD 15,6" W10 Preto ( https://www.americanas.com.br/produto/134521709?pfm_carac=Notebooks&pfm_index=8&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 44
+(00:23:56) Produto nao existe
+(00:23:56) Codigo Produto:1622219
+(00:23:56) Preço Produto: Venda: 3699,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:56) Não existe preço
+(00:23:56) Produto: Notebook Dell Inspiron I15-3583-FS1P 8ª Intel Core i5 8GB 256GB SSD 15,6" W10 Preto ( https://www.americanas.com.br/produto/1535234073?pfm_carac=Notebooks&pfm_index=9&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 45
+(00:23:58) Produto nao existe
+(00:23:58) Codigo Produto:1622220
+(00:23:58) Preço Produto: Venda: 4199,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:23:58) Não existe preço
+(00:23:58) Produto: Notebook Gamer Dell G3-3590-U60P 9ª Geração Intel Core i7 8GB 512GB SSD Placa Vídeo NVIDIA 1660Ti 15.6" Linux ( https://www.americanas.com.br/produto/1489297515?pfm_carac=Notebooks&pfm_index=11&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 46
+(00:24:00) Produto nao existe
+(00:24:00) Codigo Produto:1622221
+(00:24:00) Preço Produto: Venda: 7299,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:00) Não existe preço
+(00:24:00) Produto: Notebook Gamer Dell G3-3590-U50P 9ª Geração Intel Core i5 8GB 512GB SSD Placa Vídeo NVIDIA GTX 1650 15.6" Linux ( https://www.americanas.com.br/produto/1489297478?pfm_carac=Notebooks&pfm_index=12&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 47
+(00:24:02) Produto existe (id:1593358)
+(00:24:02) Preço Produto: Venda: 6029,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:02) Preçco mais recente: Venda: 6029,00 ( 0 x 0,00 ) Id PrecoProduto: 6875631
+(00:24:02) Mesmo preço
+(00:24:03) Produto: Macbook Air MVH42BZ/A Intel Core i5 8GB 512GB SSD 13,3" Prata ( https://www.americanas.com.br/produto/1587385324?pfm_carac=Notebooks&pfm_index=14&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 48
+(00:24:05) Produto existe (id:1398721)
+(00:24:05) Preço Produto: Venda: 11399,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:05) Preçco mais recente: Venda: 11199,99 ( 0 x 0,00 ) Id PrecoProduto: 6855188
+(00:24:05) Mudança de preço
+(00:24:05) Mudança de preço (Ajuste:-1.7857158)
+(00:24:05) Produto: Notebook Ultrafino Dell Inspiron 5490-m40s 10ª Geração Intel Core I7 16gb 256gb Ssd Nvidia Full Hd 14" Windows 10 Prata ( https://www.americanas.com.br/produto/1389531095?pfm_carac=Notebooks&pfm_index=15&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 49
+(00:24:07) Produto existe (id:1398794)
+(00:24:07) Preço Produto: Venda: 6999,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:07) Preçco mais recente: Venda: 6789,00 ( 0 x 0,00 ) Id PrecoProduto: 6544637
+(00:24:07) Mudança de preço
+(00:24:07) Mudança de preço (Ajuste:-3.093239)
+(00:24:07) Produto: Notebook Dell Inspiron I15-3584-D30B 8ª Intel Core I3 4GB 1TB 15,6" Linux Branco ( https://www.americanas.com.br/produto/1936036490?pfm_carac=Notebooks&pfm_index=17&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 50
+(00:24:09) Produto existe (id:1561647)
+(00:24:09) Preço Produto: Venda: 2899,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:09) Preçco mais recente: Venda: 2999,99 ( 0 x 0,00 ) Id PrecoProduto: 6824045
+(00:24:09) Mudança de preço
+(00:24:09) Mudança de preço (Ajuste:3.3333442)
+(00:24:09) Produto: Notebook Gamer Dell G3-3590-A60B 9ª Intel Core I7 8GB (Geforce GTX 1660TI com 6GB) 512GB SSD 15,6" W10 Branco ( https://www.americanas.com.br/produto/1809973114?pfm_carac=Notebooks&pfm_index=18&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 51
+(00:24:11) Produto nao existe
+(00:24:11) Codigo Produto:1622222
+(00:24:11) Preço Produto: Venda: 7699,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:11) Não existe preço
+(00:24:11) Produto: Notebook Positivo Motion C4500A 4GB 500GB Tela 14” HD Intel Celeron Dual-Core Windows 10 Home – Cinz ( https://www.americanas.com.br/produto/444742443?pfm_carac=Notebooks&pfm_index=21&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 52
+(00:24:13) Produto existe (id:1561605)
+(00:24:13) Preço Produto: Venda: 2099,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:13) Preçco mais recente: Venda: 2199,00 ( 0 x 0,00 ) Id PrecoProduto: 6824002
+(00:24:13) Mudança de preço
+(00:24:13) Mudança de preço (Ajuste:4.5475216)
+(00:24:16) Produto: Notebook Gamer Dell G3-3590-A60P 9ª Intel Core i7 8GB (Geforce GTX1660TI com 6GB) 512GB SSD 15,6" W10 ( https://www.americanas.com.br/produto/1535234111?pfm_carac=Notebooks&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 53
+(00:24:18) Produto nao existe
+(00:24:18) Codigo Produto:1622223
+(00:24:18) Preço Produto: Venda: 7399,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:18) Não existe preço
+(00:24:18) Produto: Notebook Acer Aspire A315-54K-53ZP Intel Core i5 4GB 1TB 15,6 Windows 10 - Cinza ( https://www.americanas.com.br/produto/1832110608?pfm_carac=Notebooks&pfm_index=1&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 54
+(00:24:20) Produto nao existe
+(00:24:20) Codigo Produto:1622224
+(00:24:20) Preço Produto: Venda: 3499,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:20) Não existe preço
+(00:24:20) Produto: Notebook 2 em 1 Dell Inspiron i14-5481-M20 8ª Geração Intel Core i5 8GB 1TB 14" Touch Windows 10 McAfee ( https://www.americanas.com.br/produto/52520913?pfm_carac=Notebooks&pfm_index=2&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 55
+(00:24:22) Produto nao existe
+(00:24:22) Codigo Produto:1622225
+(00:24:22) Preço Produto: Venda: 4499,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:22) Não existe preço
+(00:24:22) Produto: Notebook Dell Inspiron 3583-MS80P 8ª Geração Intel Core i5 8GB 256GB SSD 15.6" Placa de vídeo AMD Windows 10 Preto ( https://www.americanas.com.br/produto/1869301037?pfm_carac=Notebooks&pfm_index=4&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 56
+(00:24:24) Produto existe (id:1593393)
+(00:24:24) Preço Produto: Venda: 4549,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:24) Preçco mais recente: Venda: 4679,00 ( 0 x 0,00 ) Id PrecoProduto: 6875668
+(00:24:24) Mudança de preço
+(00:24:24) Mudança de preço (Ajuste:2.7783713)
+(00:24:25) Produto: Notebook Asus M509DA-BR324T AMD Ryzen 5 8GB 1TB 15,6   Windows 10 - Cinza Escuro ( https://www.americanas.com.br/produto/1674686441?pfm_carac=Notebooks&pfm_index=5&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 57
+(00:24:26) Produto nao existe
+(00:24:26) Codigo Produto:1622226
+(00:24:26) Preço Produto: Venda: 3749,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:26) Não existe preço
+(00:24:26) Produto: Notebook Dell Inspiron I14-5490-A40S 10th Intel Core i7 16GB (Geforce MX230 com 2GB) 256GB SSD W10 14" Prata ( https://www.americanas.com.br/produto/1579272987?pfm_carac=Notebooks&pfm_index=6&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 58
+(00:24:29) Produto nao existe
+(00:24:29) Codigo Produto:1622227
+(00:24:29) Preço Produto: Venda: 6999,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:29) Não existe preço
+(00:24:29) Produto: Notebook Asus X509FA-BR876T 8ª Intel Core i5 8GB 256GB SSD 15,6" Windows - 10 Cinza Escuro ( https://www.americanas.com.br/produto/1823625044?pfm_carac=Notebooks&pfm_index=7&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 59
+(00:24:31) Produto nao existe
+(00:24:31) Codigo Produto:1622228
+(00:24:31) Preço Produto: Venda: 3899,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:31) Não existe preço
+(00:24:31) Produto: Notebook 2 em 1 Dell Inspiron i14-5481-M30 8ª Geração Intel Core i7 8GB 1TB 14" Touch Windows 10 McAfee ( https://www.americanas.com.br/produto/52521601?pfm_carac=Notebooks&pfm_index=9&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 60
+(00:24:33) Produto existe (id:1585069)
+(00:24:33) Preço Produto: Venda: 4999,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:33) Preçco mais recente: Venda: 5479,00 ( 0 x 0,00 ) Id PrecoProduto: 6862294
+(00:24:33) Mudança de preço
+(00:24:33) Mudança de preço (Ajuste:8.760723)
+(00:24:33) Produto: Notebook Samsung Book E30 10ª Intel Core i3 4GB 1TB W10 15,6" FHD Branco ( https://www.americanas.com.br/produto/1772548990?pfm_carac=Notebooks&pfm_index=10&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 61
+(00:24:35) Produto nao existe
+(00:24:35) Codigo Produto:1622229
+(00:24:35) Preço Produto: Venda: 2999,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:35) Não existe preço
+(00:24:35) Produto: Notebook Asus Vivobook X512FB-BR501T 10ª Intel Core I5 8GB (Geforce MX110 com 2GB) 1TB 15,6" W10 Cinza ( https://www.americanas.com.br/produto/1871867304?pfm_carac=Notebooks&pfm_index=12&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 62
+(00:24:37) Produto nao existe
+(00:24:37) Codigo Produto:1622230
+(00:24:37) Preço Produto: Venda: 4499,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:37) Não existe preço
+(00:24:37) Produto: Notebook Gamer Dell G5-5590-M50P 9ª Geração Intel Core i5 8GB 256GB SSD Placa Vídeo NVIDIA GTX 1650 15.6" Windows 10 ( https://www.americanas.com.br/produto/1489327489?pfm_carac=Notebooks&pfm_index=13&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 63
+(00:24:39) Produto nao existe
+(00:24:39) Codigo Produto:1622231
+(00:24:39) Preço Produto: Venda: 7299,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:39) Não existe preço
+(00:24:39) Produto: Notebook Ultrafino Dell Inspiron 5590-m30s 10ª Ger. Intel Core I7 16gb 256gb Ssd Nvidia Full Hd 15.6" Windows 10 Prata ( https://www.americanas.com.br/produto/1389552460?pfm_carac=Notebooks&pfm_index=15&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 64
+(00:24:41) Produto existe (id:1562107)
+(00:24:41) Preço Produto: Venda: 6899,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:41) Preçco mais recente: Venda: 6899,00 ( 0 x 0,00 ) Id PrecoProduto: 6824522
+(00:24:41) Mesmo preço
+(00:24:41) Produto: Notebook Asus Vivobook X512FJ-EJ556T 10ª Intel Core I7 (8GB RAM + 32GB Optane) Geforce MX230 2GB 512GB SSD 15,6" W10 Prata Metálico ( https://www.americanas.com.br/produto/1871867611?pfm_carac=Notebooks&pfm_index=17&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 65
+(00:24:43) Produto existe (id:1585076)
+(00:24:43) Preço Produto: Venda: 6449,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:43) Preçco mais recente: Venda: 6449,99 ( 0 x 0,00 ) Id PrecoProduto: 6862301
+(00:24:43) Mesmo preço
+(00:24:43) Produto: Notebook Dell Inspiron i15-3583-U3XP 8ª Geração Intel Core i5 8GB 1TB 15.6" Linux McAfee Preto ( https://www.americanas.com.br/produto/80805391?pfm_carac=Notebooks&pfm_index=18&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 66
+(00:24:45) Produto existe (id:1603745)
+(00:24:45) Preço Produto: Venda: 3989,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:45) Preçco mais recente: Venda: 4109,00 ( 0 x 0,00 ) Id PrecoProduto: 6892250
+(00:24:45) Mudança de preço
+(00:24:45) Mudança de preço (Ajuste:2.9204185)
+(00:24:45) Produto: Notebook Gamer Dell G3-3590-A60BP 9ª Geração Intel Core i7 8GB 512GB SSD Placa Vídeo NVIDIA 1660Ti 15.6" Windows 10 Mochila ( https://www.americanas.com.br/produto/1489297152?pfm_carac=Notebooks&pfm_index=23&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 67
+(00:24:47) Produto nao existe
+(00:24:47) Codigo Produto:1622232
+(00:24:47) Preço Produto: Venda: 7869,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:47) Não existe preço
+(00:24:50) Produto: Notebook Dell Inspiron I15-3584-AS40P 8ª Intel Core i3 4GB 128GB SSD 15,6" W10 Preto + Microsoft 365 Personal ( https://www.americanas.com.br/produto/1897089491?pfm_carac=Notebooks&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 68
+(00:24:52) Produto nao existe
+(00:24:52) Codigo Produto:1622233
+(00:24:52) Preço Produto: Venda: 3099,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:52) Não existe preço
+(00:24:52) Produto: Notebook Multilaser Legacy Book Celeron 4Gb 120Gb SSD Cinza ( https://www.americanas.com.br/produto/1976906550?pfm_carac=Notebooks&pfm_index=2&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 69
+(00:24:55) Produto nao existe
+(00:24:55) Codigo Produto:1622234
+(00:24:55) Preço Produto: Venda: 2537,10 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:55) Não existe preço
+(00:24:55) Produto: Notebook Vaio FE14 B0511H Intel Core I3 4GB 128GB SSD 14" W10 ( https://www.americanas.com.br/produto/1729611017?pfm_carac=Notebooks&pfm_index=8&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 70
+(00:24:57) Produto nao existe
+(00:24:57) Codigo Produto:1622235
+(00:24:57) Preço Produto: Venda: 3149,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:57) Não existe preço
+(00:24:57) Produto: Notebook Vaio FE15 Core i5 10ª geração 8GB 1TB Windows 10 Home 15.6" - Chumbo ( https://www.americanas.com.br/produto/2120863951?pfm_carac=Notebooks&pfm_index=13&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 71
+(00:24:59) Produto nao existe
+(00:24:59) Codigo Produto:1622236
+(00:24:59) Preço Produto: Venda: 4499,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:24:59) Não existe preço
+(00:24:59) Produto: Notebook Compaq Presario CQ32 Intel Pentium 4GB 120GB SSD 14" W10 ( https://www.americanas.com.br/produto/1499041927?pfm_carac=Notebooks&pfm_index=14&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 72
+(00:25:01) Produto existe (id:1571866)
+(00:25:01) Preço Produto: Venda: 3099,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:01) Preçco mais recente: Venda: 3099,00 ( 0 x 0,00 ) Id PrecoProduto: 6840397
+(00:25:01) Mesmo preço
+(00:25:01) Produto: Notebook Acer Aspire 3 A315-54K-532Z Intel Core I5 4GB 1TB HD 128GB SSD 15,6  Windows 10 ( https://www.americanas.com.br/produto/1938459904?pfm_carac=Notebooks&pfm_index=15&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 73
+(00:25:03) Produto existe (id:1561799)
+(00:25:03) Preço Produto: Venda: 3758,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:03) Preçco mais recente: Venda: 3779,00 ( 0 x 0,00 ) Id PrecoProduto: 6824201
+(00:25:03) Mudança de preço
+(00:25:03) Mudança de preço (Ajuste:0.55570257)
+(00:25:03) Produto: Notebook Acer A515-51-51UX Intel Core i5 8GB 1TB Tela 15,6" Windows 10 - Preto ( https://www.americanas.com.br/produto/133459747?pfm_carac=Notebooks&pfm_index=16&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 74
+(00:25:05) Produto existe (id:1603821)
+(00:25:05) Preço Produto: Venda: 3740,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:05) Preçco mais recente: Venda: 3740,00 ( 0 x 0,00 ) Id PrecoProduto: 6892340
+(00:25:05) Mesmo preço
+(00:25:05) Produto: Notebook Asus X509FA-BR800T 8ª Intel Core i5 8GB 1TB 15,6   Windows 10 Prata - Metálico ( https://www.americanas.com.br/produto/1676380816?pfm_carac=Notebooks&pfm_index=17&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 75
+(00:25:07) Produto existe (id:1578021)
+(00:25:07) Preço Produto: Venda: 4699,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:07) Preçco mais recente: Venda: 4699,00 ( 0 x 0,00 ) Id PrecoProduto: 6849147
+(00:25:07) Mesmo preço
+(00:25:08) Produto: Notebook Lenovo Yoga S740 i7-1065G7 8GB 256GB SSD MX 250 2GB W10 14" Full HD 81RM0004BR Grafite ( https://www.americanas.com.br/produto/1491253896?pfm_carac=Notebooks&pfm_index=18&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 76
+(00:25:10) Produto existe (id:1604666)
+(00:25:10) Preço Produto: Venda: 8399,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:10) Preçco mais recente: Venda: 8399,00 ( 0 x 0,00 ) Id PrecoProduto: 6893329
+(00:25:10) Mesmo preço
+(00:25:10) Produto: Notebook Gamer Dell G3-3590-M60P 9ª Geração Intel Core i7 8GB 512GB SSD Placa Vídeo NVIDIA 1660Ti 15.6" Windows 10 ( https://www.americanas.com.br/produto/1489297291?pfm_carac=Notebooks&pfm_index=21&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 77
+(00:25:12) Produto nao existe
+(00:25:12) Codigo Produto:1622237
+(00:25:12) Preço Produto: Venda: 7549,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:12) Não existe preço
+(00:25:14) Produto: Notebook Dell Inspiron 3583-U05P Intel Pentium Gold 4GB 500GB 15.6" Linux Preto ( https://www.americanas.com.br/produto/107955654?pfm_carac=Notebooks&pfm_index=2&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 78
+(00:25:16) Produto existe (id:1598486)
+(00:25:16) Preço Produto: Venda: 2748,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:16) Preçco mais recente: Venda: 2749,00 ( 0 x 0,00 ) Id PrecoProduto: 6883915
+(00:25:16) Mudança de preço
+(00:25:16) Mudança de preço (Ajuste:0.036376864)
+(00:25:17) Produto: Notebook Lenovo Ideapad S145 8ª Intel Core I5 8GB 1TB HD 15,6" W10 Prata + Mochila Targus 15,6" Intellect Plus ( https://www.americanas.com.br/produto/1788216201?pfm_carac=Notebooks&pfm_index=4&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 79
+(00:25:19) Produto existe (id:1585010)
+(00:25:19) Preço Produto: Venda: 3499,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:19) Preçco mais recente: Venda: 3299,99 ( 0 x 0,00 ) Id PrecoProduto: 6862229
+(00:25:19) Mudança de preço
+(00:25:19) Mudança de preço (Ajuste:-6.0606246)
+(00:25:19) Produto: Notebook Gamer Dell G3-3590-A40P 9ª Intel Core I5 8GB (Geforce GTX1050 com 3GB) 256GB SSD 15,6" W10 ( https://www.americanas.com.br/produto/1535257700?pfm_carac=Notebooks&pfm_index=7&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 80
+(00:25:21) Produto nao existe
+(00:25:21) Codigo Produto:1622238
+(00:25:21) Preço Produto: Venda: 5999,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:21) Não existe preço
+(00:25:21) Produto: Notebook Acer Aspire 3 A315-42G-R1FT AMD Ryzen 7 8GB 256GB SSD Radeon 540X 15,6  Windows 10 ( https://www.americanas.com.br/produto/1938460631?pfm_carac=Notebooks&pfm_index=8&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 81
+(00:25:23) Produto nao existe
+(00:25:23) Codigo Produto:1622239
+(00:25:23) Preço Produto: Venda: 3999,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:23) Não existe preço
+(00:25:23) Produto: Notebook Samsung Book X50 Intel Core i7 8GB Geforce MX110 com 2GB 1TB W10 15,6 Prata + Mochila Targus Intellect Essential 15,6" - Black ( https://www.americanas.com.br/produto/1853061340?pfm_carac=Notebooks&pfm_index=9&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 82
+(00:25:25) Produto nao existe
+(00:25:25) Codigo Produto:1622240
+(00:25:25) Preço Produto: Venda: 4899,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:25) Não existe preço
+(00:25:25) Produto: Notebook Dell Inspiron i15-3583-M3XB 8ª Geração Intel Core i5 8GB 1TB 15.6" Windows 10 McAfee Branco ( https://www.americanas.com.br/produto/195867084?pfm_carac=Notebooks&pfm_index=11&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 83
+(00:25:27) Produto nao existe
+(00:25:27) Codigo Produto:1622241
+(00:25:27) Preço Produto: Venda: 4309,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:27) Não existe preço
+(00:25:27) Produto: Notebook Dell Inspiron i15-3583-MFS1P 8ª Ger. Intel Core i5 8GB 256GB SSD 15.6" Windows 10 Preto McAfee ( https://www.americanas.com.br/produto/1668568181?pfm_carac=Notebooks&pfm_index=12&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 84
+(00:25:29) Produto nao existe
+(00:25:29) Codigo Produto:1622242
+(00:25:29) Preço Produto: Venda: 4419,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:29) Não existe preço
+(00:25:29) Produto: Notebook Ultraportátil Dell XPS 13 9300-A30S 10ª geração Intel Core i7 16GB SSD de 1TB 13.4" Ultra HD 4K Windows 10 ( https://www.americanas.com.br/produto/1865374829?pfm_carac=Notebooks&pfm_index=13&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 85
+(00:25:31) Produto nao existe
+(00:25:31) Codigo Produto:1622243
+(00:25:31) Preço Produto: Venda: 11499,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:31) Não existe preço
+(00:25:31) Produto: Notebook Samsung Book X30 10ª Intel Core I5 8GB 1TB W10 15,6 Branco + Mochila Targus Intellect Essential 15,6" - Black ( https://www.americanas.com.br/produto/1848312327?pfm_carac=Notebooks&pfm_index=14&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 86
+(00:25:33) Produto existe (id:1547304)
+(00:25:33) Preço Produto: Venda: 3729,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:33) Preçco mais recente: Venda: 3729,99 ( 0 x 0,00 ) Id PrecoProduto: 6797982
+(00:25:33) Mesmo preço
+(00:25:33) Produto: Notebook Dell Inspiron I15-3583-AS90P 8ª Intel Core I7 8GB 256GB SSD 15,6" W10 ( https://www.americanas.com.br/produto/1936036537?pfm_carac=Notebooks&pfm_index=15&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 87
+(00:25:35) Produto existe (id:1571189)
+(00:25:35) Preço Produto: Venda: 4799,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:35) Preçco mais recente: Venda: 4899,99 ( 0 x 0,00 ) Id PrecoProduto: 6839696
+(00:25:35) Mudança de preço
+(00:25:35) Mudança de preço (Ajuste:2.0408204)
+(00:25:35) Produto: Notebook Dell Inspiron I15-3584-A10P Intel Core I3 4GB 1TB LED 15,6" W10 Preto ( https://www.americanas.com.br/produto/134529524?pfm_carac=Notebooks&pfm_index=16&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 88
+(00:25:37) Produto nao existe
+(00:25:37) Codigo Produto:1622244
+(00:25:37) Preço Produto: Venda: 3399,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:37) Não existe preço
+(00:25:37) Produto: Chromebook Samsung XE500C13-AD2BR Intel Celeron 4GB 16GB Tela 11.6" LED HD Preto ( https://www.americanas.com.br/produto/49457455?pfm_carac=Notebooks&pfm_index=17&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 89
+(00:25:39) Produto nao existe
+(00:25:39) Codigo Produto:1622245
+(00:25:39) Preço Produto: Venda: 1577,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:39) Não existe preço
+(00:25:39) Produto: Notebook Dell Inspiron i15-3583-MS90S 8ª Geração Intel Core i7 8GB 256GB SSD 15.6" Windows 10 Prata ( https://www.americanas.com.br/produto/1838760142?pfm_carac=Notebooks&pfm_index=20&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 90
+(00:25:41) Produto nao existe
+(00:25:41) Codigo Produto:1622246
+(00:25:41) Preço Produto: Venda: 5319,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:41) Não existe preço
+(00:25:41) Produto: Notebook Asus Vivobook X512FJ-EJ553T 8ª Intel Core i7 (8GB RAM + 32GB Optane) Geforce MX230 2GB 512GB SSD 15,6   Windows 10 - Prata Metálico ( https://www.americanas.com.br/produto/1677372068?pfm_carac=Notebooks&pfm_index=23&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 91
+(00:25:43) Produto nao existe
+(00:25:43) Codigo Produto:1622247
+(00:25:43) Preço Produto: Venda: 6070,69 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:43) Não existe preço
+(00:25:46) Produto: Notebook Dell Inspiron I15-5590-A30S 10ª Intel Core I7 16GB (Geforce MX250 com 2GB) 256GB SSD 15,6" W10 ( https://www.americanas.com.br/produto/1506613496?pfm_carac=Notebooks&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 92
+(00:25:48) Produto nao existe
+(00:25:48) Codigo Produto:1622248
+(00:25:48) Preço Produto: Venda: 7429,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:48) Não existe preço
+(00:25:48) Produto: Notebook Dell Inspiron 3583-MS110B 8ª Geração Intel Core i7 8GB 1TB 128GB SSD Placa AMD 15.6" Full HD Windows 10 Branco ( https://www.americanas.com.br/produto/1838759521?pfm_carac=Notebooks&pfm_index=2&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 93
+(00:25:50) Produto nao existe
+(00:25:50) Codigo Produto:1622249
+(00:25:50) Preço Produto: Venda: 5819,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:50) Não existe preço
+(00:25:50) Produto: Notebook Dell Inspiron 3583-MS80B 8ª Geração Intel Core i5 8GB 256GB SSD 15.6" Placa de vídeo AMD Windows 10 Branco ( https://www.americanas.com.br/produto/1869301483?pfm_carac=Notebooks&pfm_index=3&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 94
+(00:25:52) Produto nao existe
+(00:25:52) Codigo Produto:1622250
+(00:25:52) Preço Produto: Venda: 4729,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:52) Não existe preço
+(00:25:52) Produto: Notebook Gamer Samsung Odyssey 9ª Intel Core I7 16GB (Geforce GTX1650 4GB) 1TB + 256GB SSD Full HD 15,6" Windows 10 - Prata ( https://www.americanas.com.br/produto/1194254180?pfm_carac=Notebooks&pfm_index=4&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 95
+(00:25:54) Produto nao existe
+(00:25:54) Codigo Produto:1622251
+(00:25:54) Preço Produto: Venda: 10799,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:54) Não existe preço
+(00:25:54) Produto: Notebook Positivo Motion Plus Q464B, Intel Core, 4GB, 64GB, Tela 14", HD LED e Windows 10 Home ( https://www.americanas.com.br/produto/1882505430?pfm_carac=Notebooks&pfm_index=5&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 96
+(00:25:56) Produto nao existe
+(00:25:56) Codigo Produto:1622252
+(00:25:56) Preço Produto: Venda: 1769,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:56) Não existe preço
+(00:25:56) Produto: Notebook 2 em 1 Inspiron I14-5481-A20S Intel Core i5 8GB 1TB 14" W10 Prata - Dell ( https://www.americanas.com.br/produto/134238188?pfm_carac=Notebooks&pfm_index=6&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 97
+(00:25:58) Produto existe (id:1603775)
+(00:25:58) Preço Produto: Venda: 4859,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:25:58) Preçco mais recente: Venda: 4859,00 ( 0 x 0,00 ) Id PrecoProduto: 6892284
+(00:25:58) Mesmo preço
+(00:25:58) Produto: Notebook Compaq Presario CQ-25 Intel Pentium 4GB 240GB SSD 14   + Microsoft Office 365 Home 2019 - 12 meses 1TB Nuvem ( https://www.americanas.com.br/produto/2030917389?pfm_carac=Notebooks&pfm_index=7&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 98
+(00:26:01) Produto existe (id:1603776)
+(00:26:01) Preço Produto: Venda: 2199,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:01) Preçco mais recente: Venda: 2199,99 ( 0 x 0,00 ) Id PrecoProduto: 6892285
+(00:26:01) Mesmo preço
+(00:26:01) Produto: Notebook Dell Inspiron 3583-MS90P 8ª geração Intel Core i7 8GB 256GB SSD 15.6" Windows 10 Preto ( https://www.americanas.com.br/produto/1869301387?pfm_carac=Notebooks&pfm_index=10&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 99
+(00:26:02) Produto existe (id:1603778)
+(00:26:02) Preço Produto: Venda: 5269,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:02) Preçco mais recente: Venda: 5269,00 ( 0 x 0,00 ) Id PrecoProduto: 6892287
+(00:26:02) Mesmo preço
+(00:26:03) Produto: notebook acer aspire 3 15,6 a315-34-c6zs intel celeron n4000 4gb ram 1tb hd endless os preto ( https://www.americanas.com.br/produto/1882585089?pfm_carac=Notebooks&pfm_index=11&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 100
+(00:26:04) Produto existe (id:1571285)
+(00:26:05) Preço Produto: Venda: 2599,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:05) Preçco mais recente: Venda: 2599,00 ( 0 x 0,00 ) Id PrecoProduto: 6839794
+(00:26:05) Mesmo preço
+(00:26:05) Produto: Notebook Vaio FE14 Core i5 10ª 8GB 256GB SSD Windows 10 - Branco ( https://www.americanas.com.br/produto/1966344311?pfm_carac=Notebooks&pfm_index=13&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 101
+(00:26:07) Produto existe (id:1593401)
+(00:26:07) Preço Produto: Venda: 4599,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:07) Preçco mais recente: Venda: 4599,00 ( 0 x 0,00 ) Id PrecoProduto: 6875677
+(00:26:07) Mesmo preço
+(00:26:07) Produto: Notebook Ultrafino Dell Inspiron 5590-m20s 10ª Ger. Intel Core I7 8gb 256gb Ssd Nvidia Full Hd 15.6" Windows 10 Prata ( https://www.americanas.com.br/produto/1389552136?pfm_carac=Notebooks&pfm_index=16&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 102
+(00:26:09) Produto existe (id:1593404)
+(00:26:09) Preço Produto: Venda: 6879,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:09) Preçco mais recente: Venda: 6879,00 ( 0 x 0,00 ) Id PrecoProduto: 6875680
+(00:26:09) Mesmo preço
+(00:26:09) Produto: Notebook Dell Inspiron i14-3481-M30S 8ª geração Intel Core i3 4GB 1TB 14" Windows 10 Prata ( https://www.americanas.com.br/produto/71614457?pfm_carac=Notebooks&pfm_index=17&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 103
+(00:26:11) Produto existe (id:1608717)
+(00:26:11) Preço Produto: Venda: 3399,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:11) Preçco mais recente: Venda: 3399,00 ( 0 x 0,00 ) Id PrecoProduto: 6900105
+(00:26:11) Mesmo preço
+(00:26:11) Produto: Notebook Dell Inspiron 2 Em 1 I14-5491-A30S 10ª Intel Core I7 8GB (Geforce MX230 com 2GB) 256GB SSD FHD 14" W10 ( https://www.americanas.com.br/produto/1535319819?pfm_carac=Notebooks&pfm_index=18&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 104
+(00:26:13) Produto existe (id:1608718)
+(00:26:13) Preço Produto: Venda: 6699,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:13) Preçco mais recente: Venda: 6699,99 ( 0 x 0,00 ) Id PrecoProduto: 6900106
+(00:26:13) Mesmo preço
+(00:26:13) Produto: Notebook Dell Inspiron i15-3583-MS90B 8ª Geração Intel Core i7 8GB 256GB SSD 15.6" Windows 10 Branco ( https://www.americanas.com.br/produto/1838933859?pfm_carac=Notebooks&pfm_index=19&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 105
+(00:26:15) Produto existe (id:1555833)
+(00:26:15) Preço Produto: Venda: 5429,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:15) Preçco mais recente: Venda: 5429,00 ( 0 x 0,00 ) Id PrecoProduto: 6814705
+(00:26:15) Mesmo preço
+(00:26:15) Produto: Notebook Dell Inspiron i14-3480-M30S 8ª Geração Intel Core i5 4GB 1TB 14" Windows 10 McAfee Prata ( https://www.americanas.com.br/produto/80805402?pfm_carac=Notebooks&pfm_index=20&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 106
+(00:26:17) Produto existe (id:1555028)
+(00:26:17) Preço Produto: Venda: 3869,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:17) Preçco mais recente: Venda: 3869,00 ( 0 x 0,00 ) Id PrecoProduto: 6823092
+(00:26:17) Mesmo preço
+(00:26:17) Produto: Notebook Samsung, Intel® Core i5, 8GB, 256GB SSD, Tela de 13,3 , Style S51 - NP730XBE-KP2BR ( https://www.americanas.com.br/produto/1546647560?pfm_carac=Notebooks&pfm_index=21&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 107
+(00:26:19) Produto existe (id:1555813)
+(00:26:19) Preço Produto: Venda: 6367,14 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:19) Preçco mais recente: Venda: 6267,64 ( 0 x 0,00 ) Id PrecoProduto: 6862303
+(00:26:19) Mudança de preço
+(00:26:19) Mudança de preço (Ajuste:-1.5875194)
+(00:26:19) Produto: Notebook Dell Inspiron I15-3584-AS50P 8ª Intel Core I3 4GB 256GB SSD 15,6" W10 Preto + Microsoft Office 365 Home 2019 - 12 meses 1TB Nuvem ( https://www.americanas.com.br/produto/2030894412?pfm_carac=Notebooks&pfm_index=22&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 108
+(00:26:21) Produto existe (id:1585078)
+(00:26:21) Preço Produto: Venda: 3659,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:21) Preçco mais recente: Venda: 3659,99 ( 0 x 0,00 ) Id PrecoProduto: 6862304
+(00:26:21) Mesmo preço
+(00:26:24) Produto: Notebook Compaq Presario CQ-25 Intel Pentium 4GB 120GB SSD 14   + Microsoft Office 365 Home 2019 - 12 meses 1TB Nuvem ( https://www.americanas.com.br/produto/2030922882?pfm_carac=Notebooks&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 109
+(00:26:26) Produto existe (id:1561010)
+(00:26:26) Preço Produto: Venda: 1969,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:26) Preçco mais recente: Venda: 1969,99 ( 0 x 0,00 ) Id PrecoProduto: 6869686
+(00:26:26) Mesmo preço
+(00:26:26) Produto: Notebook Gamer Legion Y540 i7-9750H 16GB 1TB 128GB SSD RTX2060 6GB W10 15.6" FHD 81RJ0000BR Preto ( https://www.americanas.com.br/produto/167418353?pfm_carac=Notebooks&pfm_index=1&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 110
+(00:26:28) Produto existe (id:1585080)
+(00:26:28) Preço Produto: Venda: 8999,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:28) Preçco mais recente: Venda: 8999,00 ( 0 x 0,00 ) Id PrecoProduto: 6862306
+(00:26:28) Mesmo preço
+(00:26:28) Produto: Notebook Lenovo S145 Core i3 8130U 4GB RAM 1TB Linux Tela 15,6" 81XMS00000 ( https://www.americanas.com.br/produto/1986546501?pfm_carac=Notebooks&pfm_index=3&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 111
+(00:26:30) Produto nao existe
+(00:26:30) Codigo Produto:1622253
+(00:26:30) Preço Produto: Venda: 2990,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:30) Não existe preço
+(00:26:30) Produto: Notebook Ultrafino Dell Inspiron 5490-m10s 10ª Geração Intel Core I5 8gb 256gb Ssd Full Hd 14" Windows 10 Prata ( https://www.americanas.com.br/produto/1389530797?pfm_carac=Notebooks&pfm_index=6&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 112
+(00:26:32) Produto existe (id:1556792)
+(00:26:32) Preço Produto: Venda: 5359,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:32) Preçco mais recente: Venda: 5359,00 ( 0 x 0,00 ) Id PrecoProduto: 6815691
+(00:26:32) Mesmo preço
+(00:26:32) Produto: Chromebook Samsung Intel Celeron 4GB 32eMMC 11.6" HD - Grafite ( https://www.americanas.com.br/produto/1943745817?pfm_carac=Notebooks&pfm_index=9&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 113
+(00:26:34) Produto nao existe
+(00:26:34) Codigo Produto:1622254
+(00:26:34) Preço Produto: Venda: 1699,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:34) Não existe preço
+(00:26:34) Produto: Notebook Dell Inspiron 3583-M2XF 15.6" 8ª Geração Intel Core i5 4GB 1TB Windows 10 Microsoft Office 365 Preto ( https://www.americanas.com.br/produto/66243111?pfm_carac=Notebooks&pfm_index=19&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 114
+(00:26:36) Produto existe (id:1577983)
+(00:26:36) Preço Produto: Venda: 3609,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:36) Preçco mais recente: Venda: 3609,00 ( 0 x 0,00 ) Id PrecoProduto: 6849108
+(00:26:36) Mesmo preço
+(00:26:36) Produto: Notebook Gamer Acer AMD Ryzen 7 3750H 8GB 1TB+128SSD 4GB Tela 15 Polegadas ( https://www.americanas.com.br/produto/1902743532?pfm_carac=Notebooks&pfm_index=20&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 115
+(00:26:38) Produto existe (id:1557143)
+(00:26:38) Preço Produto: Venda: 5406,40 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:38) Preçco mais recente: Venda: 5248,90 ( 0 x 0,00 ) Id PrecoProduto: 6816053
+(00:26:38) Mudança de preço
+(00:26:38) Mudança de preço (Ajuste:-3.0006287)
+(00:26:39) Produto: Notebook VAIO FE15 Core i5 8GB Windows 10 Home SSD 256GB - Chumbo ( https://www.americanas.com.br/produto/1821020498?pfm_carac=Notebooks&pfm_index=21&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 116
+(00:26:41) Produto existe (id:1398512)
+(00:26:41) Preço Produto: Venda: 4569,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:41) Preçco mais recente: Venda: 4699,00 ( 0 x 0,00 ) Id PrecoProduto: 6544355
+(00:26:41) Mudança de preço
+(00:26:41) Mudança de preço (Ajuste:2.766546)
+(00:26:43) Produto: Notebook Dell Inspiron I15-3583-FS1P 8ª Intel Core i5 8GB 256GB SSD 15,6" W10 + Microsoft 365 Home + 1TB Armazenamento na nuvem ( https://www.americanas.com.br/produto/1638777329?pfm_carac=Notebooks&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 117
+(00:26:45) Produto nao existe
+(00:26:45) Codigo Produto:1622255
+(00:26:45) Preço Produto: Venda: 4299,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:45) Não existe preço
+(00:26:45) Produto: Notebook Dell Inspiron i15-3583-U3XB 8ª Geração Intel Core i5 8GB 1TB 15.6" Linux McAfee Branco ( https://www.americanas.com.br/produto/195867041?pfm_carac=Notebooks&pfm_index=1&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 118
+(00:26:47) Produto nao existe
+(00:26:47) Codigo Produto:1622256
+(00:26:47) Preço Produto: Venda: 4159,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:47) Não existe preço
+(00:26:47) Produto: Notebook Avell A62 LIV - 8GB ( https://www.americanas.com.br/produto/1937176911?pfm_carac=Notebooks&pfm_index=2&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 119
+(00:26:49) Produto existe (id:1563130)
+(00:26:49) Preço Produto: Venda: 7776,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:50) Preçco mais recente: Venda: 7776,00 ( 0 x 0,00 ) Id PrecoProduto: 6825595
+(00:26:50) Mesmo preço
+(00:26:50) Produto: Notebook Gamer 2AM E550 Intel Core I7 16GB (GeForce GTX 1050 com 3 GB) 1TB HD +128GB SSD IPS Full HD 15,6" W10 ( https://www.americanas.com.br/produto/1885942643?pfm_carac=Notebooks&pfm_index=9&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 120
+(00:26:52) Produto nao existe
+(00:26:52) Codigo Produto:1622257
+(00:26:52) Preço Produto: Venda: 7999,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:52) Não existe preço
+(00:26:52) Produto: Notebook Multilaser PC132 Legacy Cloud Atom 2GB 32GB 14" Windows 10 - Vermelho ( https://www.americanas.com.br/produto/1850123648?pfm_carac=Notebooks&pfm_index=10&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 121
+(00:26:54) Produto nao existe
+(00:26:54) Codigo Produto:1622258
+(00:26:54) Preço Produto: Venda: 1347,57 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:54) Não existe preço
+(00:26:54) Produto: Chromebook Acer C733T-C0QD Intel Celeron 4 GB 11.6" Chrome OS ( https://www.americanas.com.br/produto/1520351411?pfm_carac=Notebooks&pfm_index=14&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 122
+(00:26:56) Produto existe (id:1593475)
+(00:26:56) Preço Produto: Venda: 2149,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:56) Preçco mais recente: Venda: 2149,00 ( 0 x 0,00 ) Id PrecoProduto: 6875764
+(00:26:56) Mesmo preço
+(00:26:56) Produto: Notebook Vaio FE14 B0441H 8 Intel Core I3 4GB 1TB FHD 14 Linux + Mochila Targus Intellect Essential 15,6" - Black ( https://www.americanas.com.br/produto/1848321240?pfm_carac=Notebooks&pfm_index=15&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 123
+(00:26:58) Produto existe (id:1603835)
+(00:26:58) Preço Produto: Venda: 3099,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:26:58) Preçco mais recente: Venda: 3099,99 ( 0 x 0,00 ) Id PrecoProduto: 6892357
+(00:26:58) Mesmo preço
+(00:26:58) Produto: Notebook Gamer Acer Aspire Nitro AN515-54-75FJ 9ª Intel Core I7 8GB (GeForce GTX1650 com 4GB) 1TB + 128GB SSD 15,6   Endless Os + Mochila Targus Intellect Essential 15,6" - Black ( https://www.americanas.com.br/produto/1858498321?pfm_carac=Notebooks&pfm_index=16&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 124
+(00:27:00) Produto existe (id:1398027)
+(00:27:00) Preço Produto: Venda: 5999,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:27:00) Preçco mais recente: Venda: 5999,99 ( 0 x 0,00 ) Id PrecoProduto: 6892358
+(00:27:00) Mesmo preço
+(00:27:00) Produto: Notebook Gamer Acer Aspire Nitro AN515-54-75FJ 9ª Intel Core I7 8GB (GeForce GTX1650 com 4GB) 1TB + 128GB SSD 15,6   Endless Os + Mochila Targus 15,6" Intellect Plus ( https://www.americanas.com.br/produto/1803898475?pfm_carac=Notebooks&pfm_index=17&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 125
+(00:27:02) Produto existe (id:1603836)
+(00:27:02) Preço Produto: Venda: 5999,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:27:02) Preçco mais recente: Venda: 5999,99 ( 0 x 0,00 ) Id PrecoProduto: 6892359
+(00:27:02) Mesmo preço
+(00:27:02) Produto: Notebook Gamer Asus M570DDDM122T AMD R5 8GB Geforce GTX1050 com 4GB 1TB W10 15,6 + Mochila Targus Intellect Essential 15,6" - Black ( https://www.americanas.com.br/produto/1850667629?pfm_carac=Notebooks&pfm_index=19&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 126
+(00:27:04) Produto nao existe
+(00:27:04) Codigo Produto:1622259
+(00:27:04) Preço Produto: Venda: 4999,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:27:04) Não existe preço
+(00:27:04) Produto: Notebook Acer Aspire  A51554G53GP 10 Intel Core I5 8GB Geforce MX250 com 2GB 256GB SSD 15,6 W10 + Mochila Targus 15,6" Intellect Plus ( https://www.americanas.com.br/produto/1829299930?pfm_carac=Notebooks&pfm_index=20&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 127
+(00:27:06) Produto nao existe
+(00:27:06) Codigo Produto:1622260
+(00:27:06) Preço Produto: Venda: 4499,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:27:06) Não existe preço
+(00:27:06) Produto: Notebook Lenovo Ideapad S145 10ª Intel Core i5 8GB 1TB W10 15,6   Prata + Mochila Targus Intellect Essential 15,6" - Black ( https://www.americanas.com.br/produto/1858600331?pfm_carac=Notebooks&pfm_index=23&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 128
+(00:27:08) Produto nao existe
+(00:27:08) Codigo Produto:1622261
+(00:27:08) Preço Produto: Venda: 3399,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(00:27:08) Não existe preço

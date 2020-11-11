@@ -52,6 +52,11 @@ public interface PrecoDiario extends DCIObjetoDominio , PrecoDiarioAgregadoI , P
 	public long getIdProdutoPa();
 	public void setIdProdutoPa(long valor);
 	
+	public long getIdOportunidadeDia();
+	public void setIdOportunidadeDia(long id);
 	
+	public long getIdNaturezaProduto();
+	public void setIdNaturezaProduto(long id);
+
 }
 

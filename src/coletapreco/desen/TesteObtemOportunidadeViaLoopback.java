@@ -13,7 +13,7 @@ public class TesteObtemOportunidadeViaLoopback {
 	public static void main(String[] args) {
 		System.out.println("Obtem oportunidade via loopback");
 		RestAdapter adapter = new RestAdapter("https://www.digicom.inf.br:21101/api");
-		RepositorioBase.O.DispositivoUsuarioRepository rep = adapter.createRepository(RepositorioBase.DispositivoUsuarioRepository.class);
+		RepositorioBase.DispositivoUsuarioRepository rep = adapter.createRepository(RepositorioBase.DispositivoUsuarioRepository.class);
 		
 		rep.cosmeticCenterNotificacao(new ListCallback<DispositivoUsuario>() { 
             
