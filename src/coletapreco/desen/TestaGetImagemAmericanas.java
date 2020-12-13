@@ -12,10 +12,9 @@ import coletapreco.regracolecao.ProdutoRegraColecao;
 public class TestaGetImagemAmericanas {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ProdutoRegraColecao produtoSrv = FabricaRegra.getInstancia().getProdutoRegraColecao();
 		try {
-			Produto produto = produtoSrv.obtemPorChave(1066235);
+			Produto produto = produtoSrv.obtemPorChave(1287901);
 			
 			ProdutoAdaptador adaptadorProduto = new ProdutoAdaptador();
 			

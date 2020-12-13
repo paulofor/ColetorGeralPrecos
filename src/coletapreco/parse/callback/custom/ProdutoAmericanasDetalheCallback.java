@@ -1,5 +1,9 @@
 package coletapreco.parse.callback.custom;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import coletapreco.parse.callback.ProdutoDetalheCallbackHtml;
 import coletapreco.parse.dados.ProdutoDadosParse;
 
@@ -10,6 +14,7 @@ public class ProdutoAmericanasDetalheCallback extends ProdutoDetalheCallbackHtml
 	private String nome = null;
 	
 	private String fotoProduto = null;
+	private JSONObject itemJson = null;
 	
 	public ProdutoAmericanasDetalheCallback() {
 		//this.setDebug();
@@ -33,7 +38,7 @@ public class ProdutoAmericanasDetalheCallback extends ProdutoDetalheCallbackHtml
 	
 	
 	
-
+	/*
 	@Override
 	protected void meta(String propriedade, String conteudo) {
 		if("og:image".equals(propriedade)) {
@@ -41,7 +46,11 @@ public class ProdutoAmericanasDetalheCallback extends ProdutoDetalheCallbackHtml
 			((ProdutoDadosParse) this.dadosParse).setImagemDetalhe(conteudo);
 		}
 	}
+	*/
 
+	
+	
+	
 	/*
 	@Override
 	protected void handleImagem(String imagem) {
@@ -53,6 +62,24 @@ public class ProdutoAmericanasDetalheCallback extends ProdutoDetalheCallbackHtml
 		}
 	}
 	*/
+
+	@Override
+	protected void script(String tipo, String texto) {
+		// TODO Auto-generated method stub
+		super.script(tipo, texto);
+		if ("application/ld+json".equals(tipo)) {
+			try {
+				itemJson = new JSONObject(texto);
+				JSONArray obj1 = (JSONArray) itemJson.get("@graph");
+				String imagem = (String) obj1.getJSONObject(4).getJSONObject("image").get("url");
+				System.out.println("imagem: " + imagem);
+				((ProdutoDadosParse) this.dadosParse).setImagemDetalhe(imagem);
+			} catch (Exception e) {
+				System.out.println(texto);
+				e.printStackTrace();
+			}
+		}
+	}
 
 	@Override
 	public void antesLoop() {

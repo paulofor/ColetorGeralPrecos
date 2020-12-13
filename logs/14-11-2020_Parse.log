@@ -1,0 +1,71 @@
+(12:41:02) CategoriaLoja(detalhe):CategoriaLoja {IdCategoriaLoja:999;Nome:Teste;Url:https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling;DataInclusao:2019-07-19;IdCategoriaLojaF:0;IdNaturezaProdutoRa:0;IdLojaVirtualPa:0;}
+(12:41:06) URL: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(12:56:13) CategoriaLoja(detalhe):CategoriaLoja {IdCategoriaLoja:999;Nome:Teste;Url:https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling;DataInclusao:2019-07-19;IdCategoriaLojaF:0;IdNaturezaProdutoRa:0;IdLojaVirtualPa:0;}
+(12:56:15) URL: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(12:59:26) CategoriaLoja(detalhe):CategoriaLoja {IdCategoriaLoja:999;Nome:Teste;Url:https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling;DataInclusao:2019-07-19;IdCategoriaLojaF:0;IdNaturezaProdutoRa:0;IdLojaVirtualPa:0;}
+(12:59:28) URL: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(13:01:08) CategoriaLoja(detalhe):CategoriaLoja {IdCategoriaLoja:999;Nome:Teste;Url:https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling;DataInclusao:2019-07-19;IdCategoriaLojaF:0;IdNaturezaProdutoRa:0;IdLojaVirtualPa:0;}
+(13:01:10) URL: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(13:01:12) Produto: Maleta Make B. Palette Maquiagem Paleta 140 Cores Boticario 73383 ( https://www.americanas.com.br/produto/50907027?pfm_carac=L%C3%A1bios&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 1
+(13:01:12) Origem: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(13:01:15) Produto existe (id:1701752)
+(13:01:15) Preço Produto: Venda: 301,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(13:01:15) Preçco mais recente: Venda: 301,00 ( 0 x 0,00 ) Id PrecoProduto: 7059244
+(13:01:15) Mesmo preço
+(13:01:15) Produto: Batom Tinta Dna Italy Love Lip Color 10ml Cor Love Red 1und ( https://www.americanas.com.br/produto/49934433?pfm_carac=L%C3%A1bios&pfm_index=1&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 2
+(13:01:15) Origem: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(13:01:17) Produto existe (id:1143051)
+(13:01:17) Preço Produto: Venda: 12,60 ( 0 x 0,00 ) Id PrecoProduto: 0
+(13:01:17) Preçco mais recente: Venda: 13,90 ( 0 x 0,00 ) Id PrecoProduto: 7059245
+(13:01:17) Mudança de preço
+(13:01:17) Mudança de preço (Ajuste:9.352512)
+(13:01:17) Produto: Protetor Labial Nivea - Cereja Shine ( https://www.americanas.com.br/produto/599909148?pfm_carac=L%C3%A1bios&pfm_index=2&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 3
+(13:01:17) Origem: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(13:01:19) Produto existe (id:1632986)
+(13:01:19) Preço Produto: Venda: 16,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(13:01:19) Preçco mais recente: Venda: 16,99 ( 0 x 0,00 ) Id PrecoProduto: 7042087
+(13:01:19) Mesmo preço
+(13:01:19) Produto: Gloss Lip Volumoso Max Love Produto Vegano 4ml ( https://www.americanas.com.br/produto/525825355?pfm_carac=L%C3%A1bios&pfm_index=3&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 4
+(13:01:19) Origem: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(13:01:21) Produto existe (id:1141505)
+(13:01:21) Preço Produto: Venda: 16,49 ( 0 x 0,00 ) Id PrecoProduto: 0
+(13:01:21) Preçco mais recente: Venda: 16,49 ( 0 x 0,00 ) Id PrecoProduto: 6746382
+(13:01:21) Mesmo preço
+(13:01:22) Produto: Lip Tint Para Lábios E Bochechas Tropic Tint 2,5ml Morango Ruby Rose Hb 550 01 Unidade ( https://www.americanas.com.br/produto/176508191?pfm_carac=L%C3%A1bios&pfm_index=4&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 5
+(13:01:22) Origem: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(13:01:24) Produto existe (id:1209828)
+(13:01:24) Preço Produto: Venda: 18,90 ( 0 x 0,00 ) Id PrecoProduto: 0
+(13:01:24) Preçco mais recente: Venda: 18,90 ( 0 x 0,00 ) Id PrecoProduto: 6415765
+(13:01:24) Mesmo preço
+(13:01:24) Produto: Nivea - Lip Care Morango ( https://www.americanas.com.br/produto/325905?pfm_carac=L%C3%A1bios&pfm_index=5&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 6
+(13:01:24) Origem: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(13:01:26) Produto existe (id:1701753)
+(13:01:26) Preço Produto: Venda: 18,49 ( 0 x 0,00 ) Id PrecoProduto: 0
+(13:01:26) Preçco mais recente: Venda: 18,49 ( 0 x 0,00 ) Id PrecoProduto: 7059246
+(13:01:26) Mesmo preço
+(13:01:26) Produto: Protetor Labial Nivea Essential Care ( https://www.americanas.com.br/produto/325899?pfm_carac=L%C3%A1bios&pfm_index=6&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 7
+(13:01:26) Origem: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(13:01:28) Produto existe (id:1701754)
+(13:01:28) Preço Produto: Venda: 18,49 ( 0 x 0,00 ) Id PrecoProduto: 0
+(13:01:28) Preçco mais recente: Venda: 18,49 ( 0 x 0,00 ) Id PrecoProduto: 7059247
+(13:01:28) Mesmo preço
+(13:01:28) Produto: Protetor Labial Nivea Fruity Shine Melancia 4,8g ( https://www.americanas.com.br/produto/51962838?pfm_carac=L%C3%A1bios&pfm_index=7&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 8
+(13:01:28) Origem: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(13:01:30) Produto nao existe
+(13:01:30) Codigo Produto:1706143
+(13:01:30) Preço Produto: Venda: 18,49 ( 0 x 0,00 ) Id PrecoProduto: 0
+(13:01:30) Não existe preço
+(13:01:30) Produto: Lip Oil Gloss Labial Hidratante Ruby Rose 6 SABORES DIFERENTES - VALOR UNITARIO ( https://www.americanas.com.br/produto/1788323795?pfm_carac=L%C3%A1bios&pfm_index=8&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 9
+(13:01:30) Origem: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(13:01:32) Produto existe (id:1549201)
+(13:01:33) Preço Produto: Venda: 23,00 ( 0 x 0,00 ) Id PrecoProduto: 0
+(13:01:33) Preçco mais recente: Venda: 23,00 ( 0 x 0,00 ) Id PrecoProduto: 6800684
+(13:01:33) Mesmo preço
+(13:01:33) Produto: Batom Gloss Incolor com brilho Látex Max Love MAÇA ( https://www.americanas.com.br/produto/1772110939?pfm_carac=L%C3%A1bios&pfm_index=9&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 10
+(13:01:33) Origem: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling
+(13:01:35) Produto nao existe
+(13:01:35) Codigo Produto:1706144
+(13:01:35) Preço Produto: Venda: 12,99 ( 0 x 0,00 ) Id PrecoProduto: 0
+(13:01:35) Não existe preço
+(13:01:35) Produto: Protetor Labial Nivea Med Protection FPS 15 ( https://www.americanas.com.br/produto/120469196?pfm_carac=L%C3%A1bios&pfm_index=10&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid )  cont: 11
+(13:01:35) Origem: https://www.americanas.com.br/categoria/beleza-e-perfumaria/maquiagem/labios?ordenacao=topSelling

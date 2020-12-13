@@ -8,7 +8,7 @@ import coletapreco.thread.ProcessaOportunidadeTh;
 public class ColetaComputadorApp {
 
 	public static void main(String[] args) {
-		System.out.println("ColetaComputadorApp-Versao: 28-09-2020 (1)");
+		System.out.println("ColetaComputadorApp-Versao: 06-12-2020 (1)");
 		
 		LojaVirtualRegraColecao srv = FabricaRegra.getInstancia().getLojaVirtualRegraColecao();
 		ContagemProdutoRegraColecao contagemSrv = FabricaRegra.getInstancia().getContagemProdutoRegraColecao();

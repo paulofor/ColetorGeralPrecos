@@ -208,7 +208,8 @@ public  class OportunidadeDiaDaoExtendida  extends OportunidadeDiaDaoBase implem
       	sql = "select " + 
 		camposOrdenados() + 
 		" , oportunidade_dia.preco_sugestao " +
-		" from " + tabelaSelect() + " where id_natureza_produto_pa = " + idNatureza + orderByLista();
+		" from " + tabelaSelect() + " where id_natureza_produto_pa = " + idNatureza + orderByLista() + 
+		" and url_imagem is not null ";
       	return getListaSql(sql);
 	}
 

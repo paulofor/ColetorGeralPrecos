@@ -43,7 +43,7 @@ public class CategoriaLojaDadosParse extends CategoriaLojaDadosParseBase{
 		try {
 			if (listaRelacioanmento != null) {
 				int cont = 1;
-				//System.out.println("Antes do loop");
+				System.out.println("Finalizou ok com " + listaRelacioanmento.size() + " produtos.");
 				for (CategoriaLojaProduto relac : listaRelacioanmento) {
 					relac.getCorrenteProduto_ReferenteA().setIdLojaVirtualLe(itemDetalhe.getIdLojaVirtualPa());
 					relac.setCategoriaLojaReferenteA(itemDetalhe);
@@ -135,6 +135,7 @@ public class CategoriaLojaDadosParse extends CategoriaLojaDadosParseBase{
 			
 			precoDiarioSrv.getFiltro().setProduto(produto);
 			precoDiarioSrv.RegistraPreco(getConexao());
+			
 			return produto;
 		} catch (Exception e) {
 			try {
