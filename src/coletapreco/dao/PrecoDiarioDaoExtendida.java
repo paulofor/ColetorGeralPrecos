@@ -128,6 +128,32 @@ public  class PrecoDiarioDaoExtendida  extends PrecoDiarioDaoBase implements Pre
 		return this.getListaSql(sql);
 	}
 
+	@Override
+	public void insereSimples(PrecoDiario item) throws DaoException {
+		// TODO Auto-generated method stub
+		String sql;
+        sql = "insert into " + tabelaSelect() +
+            camposInsertSimples() + " values " + valoresInsertSimples(item);
+        this.executaSql(sql);
+	}
+	private String valoresInsertSimples(PrecoDiario item) {
+		return " ( " 
+		+ " " + (item.getDataHora()==null?"null": DCConvert.ToDataSqlAAAA_MM_DD_HHMMSS(item.getDataHora()) ) + "  "
+		+ " ,'" +  DCConvert.ToDataBase(item.getPrecoVenda()) + "'  "
+		+ " ,'" + item.getPosicaoProduto() + "'  "
+		+ " ," + item.getIdProdutoPa() + "  "
+		+ " ) ";
+	}
+	private String camposInsertSimples() 
+	{
+		return " ( " 
+		+ " data_hora " 
+		+ " ,preco_venda " 
+		+ " ,posicao_produto " 
+		+ " ,id_produto_pa " 
+		 + " ) ";
+	}
+
 	
 
 	

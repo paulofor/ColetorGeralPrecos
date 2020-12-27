@@ -13,6 +13,7 @@ import coletapreco.regracolecao.filtro.*;
 
 public interface PrecoDiarioDaoBaseI
  extends DaoI { 
+	public void insereSimples( PrecoDiario item ) throws DaoException;
 	public void insereItem( PrecoDiario item )  throws  DaoException;
 	public void insereItemCompleto( PrecoDiario item )  throws  DaoException;
 	public boolean insereSeNaoExiste( PrecoDiario item )  throws  DaoException;

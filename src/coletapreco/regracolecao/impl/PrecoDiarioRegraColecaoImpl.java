@@ -49,7 +49,7 @@ public  class PrecoDiarioRegraColecaoImpl  extends PrecoDiarioRegraColecao {
 		if (existe!=null) return existe;
 		PrecoDiarioDao dao = getDao();
 		dao.setConexao(conexao);
-		dao.insereItem(precoDia);
+		dao.insereSimples(precoDia);
 		return precoDia;
 	}
 
